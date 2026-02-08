@@ -16,26 +16,27 @@
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "Jiangtao Gong",
+        "url": "https://scholar.google.com/citations?user=AktmI14AAAAJ"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "Jiangtao Gong",
+        "url": "https://orcid.org/0000-0002-4310-1894"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "JennettaGong",
+        "url": "https://github.com/JennettaGong"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Tsinghua University",
+      "area": "Ph.D in Human-Computer Interaction",
+
       "studyType": "",
       "startDate": "",
       "endDate": "2018",
@@ -43,20 +44,20 @@
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Tsinghua University",
+      "area": "B.S. in Digital Entertainment Design",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
+      "endDate": "2013",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
+      "institution": "Tsinghua University",
+      "area": "B.S. in Computer Soferware",
       "studyType": "",
       "startDate": "",
-      "endDate": "2012",
+      "endDate": "2013",
       "gpa": null,
       "courses": []
     }
