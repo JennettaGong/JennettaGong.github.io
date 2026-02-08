@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 3"
+title: "A counselor-inspired agent framework for AI counselors to enhance client engagement"
 collection: publications
 category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3
