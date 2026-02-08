@@ -1,15 +1,24 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Introduction"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Jiangtao Gong is currently an Associate Professor at the School of Design (Interdisciplinary), Shanghai Jiao Tong University. Her primary research focuses on intelligent system design and cognition–enhanced human-like agents in highly cognitive activity scenarios such as learning, driving, and work.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Dr. Gong received her Ph.D. from the Future Laboratory of Tsinghua University, under the supervision of Professor Yingqing Xu, Director of the Future Laboratory, Changjiang Scholar appointed by the Ministry of Education. Her postdoctoral co-advisors were Dr. Yong Rui, Academician and Global CTO of Lenovo Group, and Dr. Qianying Wang, Vice President of Lenovo Group. Previously, Dr. Gong worked at the Institute for AI Industry Research (AIR), Tsinghua University, in the Robotics Laboratory, where she collaborated with Academician Yaqin Zhang and Associate Professor Guyue Zhou, and served as the Group Leader of the Human–AI/Robot Interaction and Collaboration Research Group.
+
+Dr. Gong has extensive interdisciplinary research experience. She received her bachelor’s degree from the School of Software, Tsinghua University, and earned a second degree in Digital Entertainment Design. She was admitted directly to the Ph.D. program at the Future Laboratory of Tsinghua University, where she conducted research in human–computer interaction grounded in cognitive behavioral science and cognitive neuroscience. Her honors include Beijing Outstanding Doctoral Graduate, Graduation Representative of her department, the ACM SIGCHI Rising Star Award, and BAAI Young Scholar, among others.
+
+Dr. Gong has served as a sub-project principal investigator on multiple major research projects, including the National Key R&D Program of China and several projects funded by the Beijing Municipal Science and Technology Commission. She has published over 40 papers in top-tier human–computer interaction venues (such as CHI, IJHCS, CSCW, UIST, and IMWUT) and leading AI and robotics conferences (including NeurIPS, AAAI, ICRA, IROS, WWW, ICCV, and ICLR), and holds more than 30 domestic and international invention patents.
+
+She has also served as Associate Chair, Paper Session Chair, and Demo Chair for conferences such as CHI and CICAI. Dr. Gong has led and participated in projects funded by the National Natural Science Foundation of China, the Ministry of Science and Technology Key R&D Program, and the Beijing Natural Science Foundation. Her honors include the Outstanding Service Award from an AI Association and letters of appreciation from the Beijing Organizing Committee for the Olympic and Paralympic Winter Games.
+
+
+<!-- 
 
 A data-driven personal website
 ======
@@ -53,4 +62,4 @@ Example: editing a Markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
