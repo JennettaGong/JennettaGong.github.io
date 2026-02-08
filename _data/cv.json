@@ -1,15 +1,16 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Jiangtao Gong",
+    "email": "gongjiangtao@sjtu.edu.cn",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://jennettagong.github.io/",
+    "summary": "Currently employed at Shanghai Jiao Tong University.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Shanghai",
+
+      "countryCode": "China",
       "region": ""
     },
     "profiles": [
