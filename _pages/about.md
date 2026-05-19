@@ -17,6 +17,16 @@ Dr. Gong has served as a sub-project principal investigator on multiple major re
 
 She has also served as Associate Chair, Paper Session Chair, and Demo Chair for conferences such as CHI and CICAI. Dr. Gong has led and participated in projects funded by the National Natural Science Foundation of China, the Ministry of Science and Technology Key R&D Program, and the Beijing Natural Science Foundation. Her honors include **the Outstanding Service Award from CAAI** and **letters of appreciation from the Beijing Organizing Committee for the Olympic and Paralympic Winter Games**.
 
+龚江涛目前任上海交通大学设计学院（交叉学科）副教授。她的主要研究方向聚焦于智能系统设计以及认知增强类人智能体，尤其面向学习、驾驶和工作等高认知活动场景。
+
+龚博士在清华大学未来实验室获得博士学位，师从未来实验室主任、教育部长江学者特聘教授**徐迎庆教授**。她的博士后合作导师为联想集团前任全球首席技术官、欧洲工程院院士**芮勇博士**，以及联想集团副总裁**王茜莺博士**。此前，龚博士曾就职于清华大学智能产业研究院（AIR）机器人实验室，与中国工程院院士**张亚勤教授**和**周谷越副教授**合作，并担任**人机交互研究组（AIR-HCI）**负责人。
+
+龚博士具有丰富的跨学科研究经历。她本科毕业于清华大学软件学院（THU-SS），并获得数字娱乐设计第二学位。随后，她保送进入清华大学未来实验室攻读博士，开展基于认知行为科学与认知神经科学的人机交互研究。她曾获得北京市优秀博士毕业生、院系毕业生代表、**ACM SIGCHI China Rising Star Award人机交互中国新星奖**、**智源学者**等多项荣誉。
+
+龚博士曾作为子课题负责人参与多项重大科研项目，包括国家重点研发计划以及多项北京市科学技术委员会资助项目。她已在国际顶级人机交互期刊和会议上发表论文40余篇，包括 CHI、IJHCS、CSCW、UIST、IMWUT 等，并在人工智能与机器人领域的重要会议上发表论文，包括 NeurIPS、AAAI、ICRA、IROS、WWW、ICCV、ICLR 等；同时拥有10余项国内外发明专利。
+
+此外，她还曾担任 CHI、CICAI、AAAI、NeurIPS 等会议的Associate Chair（副主席）、Paper Session Chair（论文分会主席）和Demo Chair（演示环节主席）。她主持和参与了多项由国家自然科学基金、科技部重点研发计划及北京市自然科学基金支持的科研项目。她所获荣誉还包括中国人工智能学会（CAAI）优秀服务奖以及科技部科技冬奥及北京冬奥会和冬残奥会组织委员会感谢信等。
+
 
 <!-- 
 
