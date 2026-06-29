@@ -6,33 +6,18 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">Jiangtao Gong has published over 40 papers in top-tier human–computer interaction venues (such as CHI, IJHCS, CSCW, UIST, and IMWUT) and leading AI and robotics conferences (including NeurIPS, AAAI, ICRA, IROS, WWW, ICCV, and ICLR), and holds more than 30 domestic and international invention patents. You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">
+    Jiangtao Gong has published over 40 papers in top-tier human-computer interaction venues, such as CHI, IJHCS, CSCW, UIST, and IMWUT, and in leading AI and robotics venues, including NeurIPS, AAAI, ICRA, IROS, WWW, ICCV, and ICLR. He also holds more than 30 domestic and international invention patents. You can also find his articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+  </div>
 {% endif %}
 
- <div class="wordwrap">龚江涛以一作或者通讯作者身份已在顶级人机交互领域期刊与会议（如 CHI、IJHCS、CSCW、UIST 和 IMWUT）以及人工智能与机器人领域的重要会议（包括 NeurIPS、AAAI、ICRA、IROS、WWW、ICCV 和 ICLR）发表论文40余篇，并拥有30余项国内外发明专利。您还可以在<a href="{{site.author.googlescholar}}">我的 Google Scholar 个人主页</a>上查看我的论文。</div>
+<div class="wordwrap">
+  龚江涛以第一作者或通讯作者身份已在顶级人机交互领域期刊与会议（如 CHI、IJHCS、CSCW、UIST 和 IMWUT）以及人工智能与机器人领域的重要会议（包括 NeurIPS、AAAI、ICRA、IROS、WWW、ICCV 和 ICLR）发表论文 40 余篇，并拥有 30 余项国内外发明专利。您还可以在 <a href="{{ site.author.googlescholar }}">Google Scholar 个人主页</a> 查看论文列表。
+</div>
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-<!-- {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %} -->
-
-
-
+{% assign publications = site.publications | sort: "scholar_order" %}
+{% for post in publications %}
+  {% include archive-single.html %}
+{% endfor %}
