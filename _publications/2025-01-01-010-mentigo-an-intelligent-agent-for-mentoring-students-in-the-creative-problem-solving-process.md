@@ -2,7 +2,10 @@
 title: "Mentigo: An intelligent agent for mentoring students in the creative problem solving process"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: education
 scholar_order: 10
+topic_sort_key: 2025990
 permalink: /publication/2025-01-01-010-mentigo-an-intelligent-agent-for-mentoring-students-in-the-creative-problem-solving-process
 date: 2025-01-01
 year: 2025

@@ -2,7 +2,10 @@
 title: "ChordAR: An educational AR game design for children's music theory learning"
 collection: publications
 category: manuscripts
+publication_group: intelligent-system-design
+publication_subtopic: education
 scholar_order: 17
+topic_sort_key: 2022983
 permalink: /publication/2022-01-01-017-chordar-an-educational-ar-game-design-for-children-s-music-theory-learning
 date: 2022-01-01
 year: 2022

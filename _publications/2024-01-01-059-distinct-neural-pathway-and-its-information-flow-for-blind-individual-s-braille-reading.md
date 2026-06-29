@@ -2,7 +2,10 @@
 title: "Distinct neural pathway and its information flow for blind individual's Braille reading"
 collection: publications
 category: manuscripts
+publication_group: human-understanding
+publication_subtopic: cognitive-instruments
 scholar_order: 59
+topic_sort_key: 2024941
 permalink: /publication/2024-01-01-059-distinct-neural-pathway-and-its-information-flow-for-blind-individual-s-braille-reading
 date: 2024-01-01
 year: 2024

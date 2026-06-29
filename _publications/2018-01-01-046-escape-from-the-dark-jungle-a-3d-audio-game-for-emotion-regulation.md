@@ -2,7 +2,10 @@
 title: "Escape from the Dark Jungle: A 3D Audio Game for Emotion Regulation"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: wellbeing
 scholar_order: 46
+topic_sort_key: 2018954
 permalink: /publication/2018-01-01-046-escape-from-the-dark-jungle-a-3d-audio-game-for-emotion-regulation
 date: 2018-01-01
 year: 2018

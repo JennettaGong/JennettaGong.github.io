@@ -17,7 +17,47 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign publications = site.publications | sort: "scholar_order" %}
-{% for post in publications %}
-  {% include archive-single.html %}
+{% for group in site.data.publication_topics %}
+  {% assign all_publications = site.publications | sort: "topic_sort_key" | reverse %}
+  {% assign group_count = 0 %}
+  {% for post in all_publications %}
+    {% if post.publication_group == group.key or post.publication_groups contains group.key %}
+      {% assign group_count = group_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  {% if group_count > 0 %}
+    <details class="publication-topic">
+      <summary class="publication-topic__summary">
+        <span class="publication-topic__title">{{ group.title }}</span>
+        <span class="publication-topic__count">{{ group_count }}</span>
+      </summary>
+      <div class="publication-topic__content">
+        {% if group.subtopics %}
+          {% assign group_publications = all_publications | where: "publication_group", group.key %}
+          {% for subtopic in group.subtopics %}
+            {% assign subtopic_publications = group_publications | where: "publication_subtopic", subtopic.key | sort: "topic_sort_key" | reverse %}
+            {% if subtopic_publications.size > 0 %}
+              <details class="publication-subtopic">
+                <summary class="publication-subtopic__summary">
+                  <span class="publication-topic__title">{{ subtopic.title }}</span>
+                  <span class="publication-topic__count">{{ subtopic_publications.size }}</span>
+                </summary>
+                <div class="publication-subtopic__content">
+                  {% for post in subtopic_publications %}
+                    {% include archive-single.html %}
+                  {% endfor %}
+                </div>
+              </details>
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% for post in all_publications %}
+            {% if post.publication_group == group.key or post.publication_groups contains group.key %}
+              {% include archive-single.html %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
+    </details>
+  {% endif %}
 {% endfor %}

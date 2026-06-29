@@ -2,7 +2,10 @@
 title: "Touch-and-heal: Data-driven affective computing in tactile interaction with robotic dog"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: wellbeing
 scholar_order: 15
+topic_sort_key: 2023985
 permalink: /publication/2023-01-01-015-touch-and-heal-data-driven-affective-computing-in-tactile-interaction-with-robotic-dog
 date: 2023-01-01
 year: 2023

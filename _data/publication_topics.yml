@@ -1,0 +1,24 @@
+- key: intelligent-system-design
+  title: "Intelligent System Design"
+  subtopics:
+    - key: traffic
+      title: "Traffic & Autonomous Driving"
+    - key: education
+      title: "Education & Learning"
+    - key: accessibility
+      title: "Accessibility"
+    - key: wellbeing
+      title: "Well-being"
+- key: human-ai-collaboration
+  title: "Human-AI Collaboration"
+- key: human-understanding
+  title: "Human Understanding"
+  subtopics:
+    - key: cognitive-instruments
+      title: "Cognitive Instruments"
+    - key: qualitative
+      title: "Qualitative Studies"
+    - key: quantitative
+      title: "Quantitative Studies"
+- key: surveys
+  title: "Surveys"

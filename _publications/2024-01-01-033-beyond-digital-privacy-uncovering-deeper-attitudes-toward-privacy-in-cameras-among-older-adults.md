@@ -2,7 +2,10 @@
 title: "Beyond digital privacy: Uncovering deeper attitudes toward privacy in cameras among older adults"
 collection: publications
 category: manuscripts
+publication_group: human-understanding
+publication_subtopic: qualitative
 scholar_order: 33
+topic_sort_key: 2024967
 permalink: /publication/2024-01-01-033-beyond-digital-privacy-uncovering-deeper-attitudes-toward-privacy-in-cameras-among-older-adults
 date: 2024-01-01
 year: 2024

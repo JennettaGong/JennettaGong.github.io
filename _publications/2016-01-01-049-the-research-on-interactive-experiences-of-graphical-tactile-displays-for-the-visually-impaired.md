@@ -2,7 +2,10 @@
 title: "The research on interactive experiences of graphical tactile displays for the visually impaired"
 collection: publications
 category: manuscripts
+publication_group: intelligent-system-design
+publication_subtopic: accessibility
 scholar_order: 49
+topic_sort_key: 2016951
 permalink: /publication/2016-01-01-049-the-research-on-interactive-experiences-of-graphical-tactile-displays-for-the-visually-impaired
 date: 2016-01-01
 year: 2016

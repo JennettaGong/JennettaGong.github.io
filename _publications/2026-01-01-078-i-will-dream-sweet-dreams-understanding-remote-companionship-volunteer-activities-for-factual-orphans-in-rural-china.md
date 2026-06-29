@@ -2,7 +2,10 @@
 title: '"I Will Dream Sweet Dreams": Understanding Remote Companionship Volunteer Activities for Factual Orphans in Rural China'
 collection: publications
 category: conferences
+publication_group: human-understanding
+publication_subtopic: qualitative
 scholar_order: 78
+topic_sort_key: 2026922
 permalink: /publication/2026-01-01-078-i-will-dream-sweet-dreams-understanding-remote-companionship-volunteer-activities-for-factual-orphans-in-rural-china
 date: 2026-01-01
 year: 2026

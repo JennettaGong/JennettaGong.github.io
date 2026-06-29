@@ -2,7 +2,11 @@
 title: "Work with AI and work for AI: autonomous vehicle safety drivers... lived experiences"
 collection: publications
 category: conferences
+publication_group: human-understanding
+publication_groups: "human-ai-collaboration"
+publication_subtopic: qualitative
 scholar_order: 8
+topic_sort_key: 2023992
 permalink: /publication/2023-01-01-008-work-with-ai-and-work-for-ai-autonomous-vehicle-safety-drivers-lived-experiences
 date: 2023-01-01
 year: 2023

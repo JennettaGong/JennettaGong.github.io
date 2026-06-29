@@ -2,7 +2,10 @@
 title: "Olap visual analytics on large software call graphs with hierarchical chordmap"
 collection: publications
 category: conferences
+publication_group: human-understanding
+publication_subtopic: quantitative
 scholar_order: 62
+topic_sort_key: 2015938
 permalink: /publication/2015-01-01-062-olap-visual-analytics-on-large-software-call-graphs-with-hierarchical-chordmap
 date: 2015-01-01
 year: 2015

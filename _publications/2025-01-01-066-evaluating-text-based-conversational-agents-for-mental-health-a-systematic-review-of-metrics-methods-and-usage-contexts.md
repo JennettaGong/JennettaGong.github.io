@@ -2,7 +2,9 @@
 title: "Evaluating Text-based Conversational Agents for Mental Health: A Systematic Review of Metrics, Methods and Usage Contexts"
 collection: publications
 category: conferences
+publication_group: surveys
 scholar_order: 66
+topic_sort_key: 2025934
 permalink: /publication/2025-01-01-066-evaluating-text-based-conversational-agents-for-mental-health-a-systematic-review-of-metrics-methods-and-usage-contexts
 date: 2025-01-01
 year: 2025

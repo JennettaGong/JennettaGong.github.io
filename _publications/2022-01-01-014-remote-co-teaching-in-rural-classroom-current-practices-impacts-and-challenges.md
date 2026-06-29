@@ -2,7 +2,10 @@
 title: "Remote co-teaching in rural classroom: Current practices, impacts, and challenges"
 collection: publications
 category: conferences
+publication_group: human-understanding
+publication_subtopic: qualitative
 scholar_order: 14
+topic_sort_key: 2022986
 permalink: /publication/2022-01-01-014-remote-co-teaching-in-rural-classroom-current-practices-impacts-and-challenges
 date: 2022-01-01
 year: 2022

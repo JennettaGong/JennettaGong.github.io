@@ -2,7 +2,10 @@
 title: "影响触觉图像识别因素的定量分析"
 collection: publications
 category: manuscripts
+publication_group: intelligent-system-design
+publication_subtopic: accessibility
 scholar_order: 51
+topic_sort_key: 2018949
 permalink: /publication/2018-01-01-051-aktmi14aaaaj-kndyix-mwkoc
 date: 2018-01-01
 year: 2018

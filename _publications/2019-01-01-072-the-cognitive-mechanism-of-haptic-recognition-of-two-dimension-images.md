@@ -2,7 +2,10 @@
 title: "The cognitive mechanism of haptic recognition of two-dimension images"
 collection: publications
 category: manuscripts
+publication_group: human-understanding
+publication_subtopic: cognitive-instruments
 scholar_order: 72
+topic_sort_key: 2019928
 permalink: /publication/2019-01-01-072-the-cognitive-mechanism-of-haptic-recognition-of-two-dimension-images
 date: 2019-01-01
 year: 2019

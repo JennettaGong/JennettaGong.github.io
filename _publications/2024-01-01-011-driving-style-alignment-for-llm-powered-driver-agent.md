@@ -2,7 +2,10 @@
 title: "Driving style alignment for llm-powered driver agent"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: traffic
 scholar_order: 11
+topic_sort_key: 2024989
 permalink: /publication/2024-01-01-011-driving-style-alignment-for-llm-powered-driver-agent
 date: 2024-01-01
 year: 2024

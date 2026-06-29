@@ -2,7 +2,10 @@
 title: "COLP: scaffolding children's online long-term collaborative learning"
 collection: publications
 category: manuscripts
+publication_group: intelligent-system-design
+publication_subtopic: education
 scholar_order: 39
+topic_sort_key: 2025961
 permalink: /publication/2025-01-01-039-colp-scaffolding-children-s-online-long-term-collaborative-learning
 date: 2025-01-01
 year: 2025

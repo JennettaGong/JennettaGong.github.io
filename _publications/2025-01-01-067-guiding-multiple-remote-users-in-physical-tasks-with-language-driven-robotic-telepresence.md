@@ -2,7 +2,9 @@
 title: "Guiding Multiple Remote Users in Physical Tasks with Language-driven Robotic Telepresence"
 collection: publications
 category: conferences
+publication_group: human-ai-collaboration
 scholar_order: 67
+topic_sort_key: 2025933
 permalink: /publication/2025-01-01-067-guiding-multiple-remote-users-in-physical-tasks-with-language-driven-robotic-telepresence
 date: 2025-01-01
 year: 2025

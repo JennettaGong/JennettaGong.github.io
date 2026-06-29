@@ -2,7 +2,10 @@
 title: "触觉二维图像识别的认知机制"
 collection: publications
 category: manuscripts
+publication_group: intelligent-system-design
+publication_subtopic: accessibility
 scholar_order: 61
+topic_sort_key: 2019939
 permalink: /publication/2019-01-01-061-aktmi14aaaaj-klatu1dfn6uc
 date: 2019-01-01
 year: 2019

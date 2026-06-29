@@ -2,7 +2,10 @@
 title: "CoIRL-AD: Collaborative-Competitive Imitation-Reinforcement Learning in Latent World Models for Autonomous Driving"
 collection: publications
 category: preprints
+publication_group: intelligent-system-design
+publication_subtopic: traffic
 scholar_order: 83
+topic_sort_key: 2025917
 permalink: /publication/2025-01-01-083-coirl-ad-collaborative-competitive-imitation-reinforcement-learning-in-latent-world-models-for-autonomous-driving
 date: 2025-01-01
 year: 2025

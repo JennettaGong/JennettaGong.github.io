@@ -2,7 +2,10 @@
 title: "Side-by-side vs face-to-face: Evaluating colocated collaboration via a transparent wall-sized display"
 collection: publications
 category: conferences
+publication_group: human-understanding
+publication_subtopic: quantitative
 scholar_order: 34
+topic_sort_key: 2023966
 permalink: /publication/2023-01-01-034-side-by-side-vs-face-to-face-evaluating-colocated-collaboration-via-a-transparent-wall-sized-display
 date: 2023-01-01
 year: 2023

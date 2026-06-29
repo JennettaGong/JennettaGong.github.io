@@ -2,7 +2,11 @@
 title: "Human-Centered AI for Expressive Arts Therapy: Designing for Mental Well-Being and Creativity"
 collection: publications
 category: manuscripts
+publication_group: intelligent-system-design
+publication_groups: "human-ai-collaboration"
+publication_subtopic: wellbeing
 scholar_order: 75
+topic_sort_key: 2026925
 permalink: /publication/2026-01-01-075-human-centered-ai-for-expressive-arts-therapy-designing-for-mental-well-being-and-creativity
 date: 2026-01-01
 year: 2026

@@ -2,7 +2,10 @@
 title: "Annotating Covert Hazardous Driving Scenarios Online: Utilizing Drivers' Electroencephalography (EEG) Signals"
 collection: publications
 category: preprints
+publication_group: human-understanding
+publication_subtopic: cognitive-instruments
 scholar_order: 53
+topic_sort_key: 2023947
 permalink: /publication/2023-01-01-053-annotating-covert-hazardous-driving-scenarios-online-utilizing-drivers-electroencephalography-eeg-signals
 date: 2023-01-01
 year: 2023

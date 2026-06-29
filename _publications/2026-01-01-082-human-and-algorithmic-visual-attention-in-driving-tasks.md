@@ -2,7 +2,11 @@
 title: "Human and algorithmic visual attention in driving tasks"
 collection: publications
 category: manuscripts
+publication_group: human-understanding
+publication_groups: "human-ai-collaboration"
+publication_subtopic: cognitive-instruments
 scholar_order: 82
+topic_sort_key: 2026918
 permalink: /publication/2026-01-01-082-human-and-algorithmic-visual-attention-in-driving-tasks
 date: 2026-01-01
 year: 2026

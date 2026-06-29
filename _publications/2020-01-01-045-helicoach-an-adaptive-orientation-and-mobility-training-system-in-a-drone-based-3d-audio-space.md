@@ -2,7 +2,10 @@
 title: "HeliCoach: An Adaptive Orientation and Mobility Training System in a Drone-Based 3D Audio Space"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: accessibility
 scholar_order: 45
+topic_sort_key: 2020955
 permalink: /publication/2020-01-01-045-helicoach-an-adaptive-orientation-and-mobility-training-system-in-a-drone-based-3d-audio-space
 date: 2020-01-01
 year: 2020

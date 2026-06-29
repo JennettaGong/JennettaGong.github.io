@@ -2,7 +2,10 @@
 title: "An EEG dataset for understanding driving expertise from naturalistic urban road experiments"
 collection: publications
 category: manuscripts
+publication_group: human-understanding
+publication_subtopic: cognitive-instruments
 scholar_order: 77
+topic_sort_key: 2026923
 permalink: /publication/2026-01-01-077-an-eeg-dataset-for-understanding-driving-expertise-from-naturalistic-urban-road-experiments
 date: 2026-01-01
 year: 2026

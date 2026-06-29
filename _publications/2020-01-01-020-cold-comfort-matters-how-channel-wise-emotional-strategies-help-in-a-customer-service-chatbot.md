@@ -2,7 +2,10 @@
 title: "Cold comfort matters-how channel-wise emotional strategies help in a customer service chatbot"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: wellbeing
 scholar_order: 20
+topic_sort_key: 2020980
 permalink: /publication/2020-01-01-020-cold-comfort-matters-how-channel-wise-emotional-strategies-help-in-a-customer-service-chatbot
 date: 2020-01-01
 year: 2020

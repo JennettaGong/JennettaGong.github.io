@@ -2,7 +2,10 @@
 title: "Design of children's entertainment and education products based on AR technology"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: education
 scholar_order: 40
+topic_sort_key: 2021960
 permalink: /publication/2021-01-01-040-design-of-children-s-entertainment-and-education-products-based-on-ar-technology
 date: 2021-01-01
 year: 2021

@@ -2,7 +2,10 @@
 title: "How Generative Music Affects the ISO Principle-Based Emotion-Focused Therapy: An EEG Study"
 collection: publications
 category: conferences
+publication_group: human-understanding
+publication_subtopic: cognitive-instruments
 scholar_order: 58
+topic_sort_key: 2025942
 permalink: /publication/2025-01-01-058-how-generative-music-affects-the-iso-principle-based-emotion-focused-therapy-an-eeg-study
 date: 2025-01-01
 year: 2025

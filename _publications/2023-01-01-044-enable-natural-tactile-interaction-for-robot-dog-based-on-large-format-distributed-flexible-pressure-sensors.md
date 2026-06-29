@@ -2,7 +2,10 @@
 title: "Enable natural tactile interaction for robot dog based on large-format distributed flexible pressure sensors"
 collection: publications
 category: preprints
+publication_group: intelligent-system-design
+publication_subtopic: accessibility
 scholar_order: 44
+topic_sort_key: 2023956
 permalink: /publication/2023-01-01-044-enable-natural-tactile-interaction-for-robot-dog-based-on-large-format-distributed-flexible-pressure-sensors
 date: 2023-01-01
 year: 2023

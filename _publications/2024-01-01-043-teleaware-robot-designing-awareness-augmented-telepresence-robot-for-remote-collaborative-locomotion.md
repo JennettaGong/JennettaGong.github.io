@@ -2,7 +2,9 @@
 title: "Teleaware robot: Designing awareness-augmented telepresence robot for remote collaborative locomotion"
 collection: publications
 category: conferences
+publication_group: human-ai-collaboration
 scholar_order: 43
+topic_sort_key: 2024957
 permalink: /publication/2024-01-01-043-teleaware-robot-designing-awareness-augmented-telepresence-robot-for-remote-collaborative-locomotion
 date: 2024-01-01
 year: 2024

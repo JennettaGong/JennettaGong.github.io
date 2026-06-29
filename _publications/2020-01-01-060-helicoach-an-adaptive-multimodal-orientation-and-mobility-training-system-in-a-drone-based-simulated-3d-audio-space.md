@@ -2,7 +2,10 @@
 title: "HeliCoach: An Adaptive Multimodal Orientation and Mobility Training System in a Drone-Based Simulated 3D Audio Space"
 collection: publications
 category: manuscripts
+publication_group: intelligent-system-design
+publication_subtopic: accessibility
 scholar_order: 60
+topic_sort_key: 2020940
 permalink: /publication/2020-01-01-060-helicoach-an-adaptive-multimodal-orientation-and-mobility-training-system-in-a-drone-based-simulated-3d-audio-space
 date: 2020-01-01
 year: 2020

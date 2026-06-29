@@ -2,7 +2,10 @@
 title: "Large language models powered context-aware motion prediction in autonomous driving"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: traffic
 scholar_order: 6
+topic_sort_key: 2024994
 permalink: /publication/2024-01-01-006-large-language-models-powered-context-aware-motion-prediction-in-autonomous-driving
 date: 2024-01-01
 year: 2024

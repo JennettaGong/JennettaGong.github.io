@@ -2,7 +2,10 @@
 title: "PaperLego: Component-based papercraft designing tool for children"
 collection: publications
 category: manuscripts
+publication_group: intelligent-system-design
+publication_subtopic: education
 scholar_order: 37
+topic_sort_key: 2014963
 permalink: /publication/2014-01-01-037-paperlego-component-based-papercraft-designing-tool-for-children
 date: 2014-01-01
 year: 2014

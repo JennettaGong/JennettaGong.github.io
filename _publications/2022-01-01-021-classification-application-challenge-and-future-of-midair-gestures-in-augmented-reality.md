@@ -2,7 +2,9 @@
 title: "Classification, application, challenge, and future of midair gestures in augmented reality"
 collection: publications
 category: manuscripts
+publication_group: surveys
 scholar_order: 21
+topic_sort_key: 2022979
 permalink: /publication/2022-01-01-021-classification-application-challenge-and-future-of-midair-gestures-in-augmented-reality
 date: 2022-01-01
 year: 2022

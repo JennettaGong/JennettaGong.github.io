@@ -2,7 +2,10 @@
 title: "SVATA: A Spatial Visual Attention Tracking and Analysis Platform for Embodied Cognition Research"
 collection: publications
 category: conferences
+publication_group: human-understanding
+publication_subtopic: cognitive-instruments
 scholar_order: 63
+topic_sort_key: 2026937
 permalink: /publication/2026-01-01-063-svata-a-spatial-visual-attention-tracking-and-analysis-platform-for-embodied-cognition-research
 date: 2026-01-01
 year: 2026

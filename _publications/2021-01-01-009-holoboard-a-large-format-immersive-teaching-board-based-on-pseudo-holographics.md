@@ -2,7 +2,10 @@
 title: "Holoboard: A large-format immersive teaching board based on pseudo holographics"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: education
 scholar_order: 9
+topic_sort_key: 2021991
 permalink: /publication/2021-01-01-009-holoboard-a-large-format-immersive-teaching-board-based-on-pseudo-holographics
 date: 2021-01-01
 year: 2021

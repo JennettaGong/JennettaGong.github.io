@@ -2,7 +2,9 @@
 title: "Human-computer interaction for virtual-real fusion"
 collection: publications
 category: manuscripts
+publication_group: surveys
 scholar_order: 28
+topic_sort_key: 2023972
 permalink: /publication/2023-01-01-028-human-computer-interaction-for-virtual-real-fusion
 date: 2023-01-01
 year: 2023

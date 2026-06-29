@@ -2,7 +2,10 @@
 title: "HeliCoach: A drone-based system supporting orientation and mobility training for the visually impaired"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: accessibility
 scholar_order: 26
+topic_sort_key: 2019974
 permalink: /publication/2019-01-01-026-helicoach-a-drone-based-system-supporting-orientation-and-mobility-training-for-the-visually-impaired
 date: 2019-01-01
 year: 2019

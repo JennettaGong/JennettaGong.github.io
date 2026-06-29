@@ -2,7 +2,9 @@
 title: "Human Tool: An MCP-Style Framework for Human-Agent Collaboration"
 collection: publications
 category: preprints
+publication_group: human-ai-collaboration
 scholar_order: 81
+topic_sort_key: 2026919
 permalink: /publication/2026-01-01-081-human-tool-an-mcp-style-framework-for-human-agent-collaboration
 date: 2026-01-01
 year: 2026

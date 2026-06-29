@@ -2,7 +2,10 @@
 title: "MR. Brick: designing a remote mixed-reality educational game system for promoting children's social & collaborative skills"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: education
 scholar_order: 12
+topic_sort_key: 2023988
 permalink: /publication/2023-01-01-012-mr-brick-designing-a-remote-mixed-reality-educational-game-system-for-promoting-children-s-social-and-collaborative-skills
 date: 2023-01-01
 year: 2023

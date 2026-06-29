@@ -2,7 +2,10 @@
 title: "How GenAI Mentor Configurations Shape Early Collaborative Dynamics: A Classroom Comparison of Individual and Shared Agents"
 collection: publications
 category: preprints
+publication_group: intelligent-system-design
+publication_subtopic: education
 scholar_order: 80
+topic_sort_key: 2026920
 permalink: /publication/2026-01-01-080-how-genai-mentor-configurations-shape-early-collaborative-dynamics-a-classroom-comparison-of-individual-and-shared-agents
 date: 2026-01-01
 year: 2026

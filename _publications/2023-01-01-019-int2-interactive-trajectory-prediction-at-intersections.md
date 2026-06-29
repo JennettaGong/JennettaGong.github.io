@@ -2,7 +2,10 @@
 title: "Int2: Interactive trajectory prediction at intersections"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: traffic
 scholar_order: 19
+topic_sort_key: 2023981
 permalink: /publication/2023-01-01-019-int2-interactive-trajectory-prediction-at-intersections
 date: 2023-01-01
 year: 2023

@@ -2,7 +2,10 @@
 title: "A High Fidelity Simulation Framework for Potential Safety Benefits Estimation of Cooperative Pedestrian Perception"
 collection: publications
 category: preprints
+publication_group: human-understanding
+publication_subtopic: quantitative
 scholar_order: 70
+topic_sort_key: 2022930
 permalink: /publication/2022-01-01-070-a-high-fidelity-simulation-framework-for-potential-safety-benefits-estimation-of-cooperative-pedestrian-perception
 date: 2022-01-01
 year: 2022

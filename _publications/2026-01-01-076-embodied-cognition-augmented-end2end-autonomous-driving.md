@@ -2,7 +2,10 @@
 title: "Embodied Cognition Augmented End2End Autonomous Driving"
 collection: publications
 category: manuscripts
+publication_group: human-understanding
+publication_subtopic: cognitive-instruments
 scholar_order: 76
+topic_sort_key: 2026924
 permalink: /publication/2026-01-01-076-embodied-cognition-augmented-end2end-autonomous-driving
 date: 2026-01-01
 year: 2026

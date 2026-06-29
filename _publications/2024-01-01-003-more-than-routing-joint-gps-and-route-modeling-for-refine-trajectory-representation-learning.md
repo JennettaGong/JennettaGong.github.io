@@ -2,7 +2,10 @@
 title: "More than routing: Joint GPS and route modeling for refine trajectory representation learning"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: traffic
 scholar_order: 3
+topic_sort_key: 2024997
 permalink: /publication/2024-01-01-003-more-than-routing-joint-gps-and-route-modeling-for-refine-trajectory-representation-learning
 date: 2024-01-01
 year: 2024

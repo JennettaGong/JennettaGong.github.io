@@ -2,7 +2,11 @@
 title: "Understanding human-AI collaboration in music therapy through co-design with therapists"
 collection: publications
 category: conferences
+publication_group: human-understanding
+publication_groups: "human-ai-collaboration"
+publication_subtopic: qualitative
 scholar_order: 2
+topic_sort_key: 2024998
 permalink: /publication/2024-01-01-002-understanding-human-ai-collaboration-in-music-therapy-through-co-design-with-therapists
 date: 2024-01-01
 year: 2024

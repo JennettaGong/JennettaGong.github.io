@@ -2,7 +2,10 @@
 title: "TouchEditor: interaction design and evaluation of a flexible touchpad for text editing of head-mounted displays in speech-unfriendly environments"
 collection: publications
 category: conferences
+publication_group: human-understanding
+publication_subtopic: quantitative
 scholar_order: 23
+topic_sort_key: 2024977
 permalink: /publication/2024-01-01-023-toucheditor-interaction-design-and-evaluation-of-a-flexible-touchpad-for-text-editing-of-head-mounted-displays-in-speech-unfriendly-environments
 date: 2024-01-01
 year: 2024

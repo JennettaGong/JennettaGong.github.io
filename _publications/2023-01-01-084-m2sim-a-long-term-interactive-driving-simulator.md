@@ -2,7 +2,10 @@
 title: "M2Sim: A Long-Term Interactive Driving Simulator"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: traffic
 scholar_order: 84
+topic_sort_key: 2023916
 permalink: /publication/2023-01-01-084-m2sim-a-long-term-interactive-driving-simulator
 date: 2023-01-01
 year: 2023

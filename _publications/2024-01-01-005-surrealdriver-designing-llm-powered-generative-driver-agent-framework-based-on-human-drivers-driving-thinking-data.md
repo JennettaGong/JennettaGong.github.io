@@ -2,7 +2,10 @@
 title: "SurrealDriver: Designing LLM-powered generative driver agent framework based on human drivers... driving-thinking data"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: traffic
 scholar_order: 5
+topic_sort_key: 2024995
 permalink: /publication/2024-01-01-005-surrealdriver-designing-llm-powered-generative-driver-agent-framework-based-on-human-drivers-driving-thinking-data
 date: 2024-01-01
 year: 2024

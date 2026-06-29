@@ -2,7 +2,11 @@
 title: "FreeAskWorld: An Interactive and Closed-Loop Simulator for Human-Centric Embodied AI"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_groups: "human-ai-collaboration"
+publication_subtopic: traffic
 scholar_order: 64
+topic_sort_key: 2026936
 permalink: /publication/2026-01-01-064-freeaskworld-an-interactive-and-closed-loop-simulator-for-human-centric-embodied-ai
 date: 2026-01-01
 year: 2026

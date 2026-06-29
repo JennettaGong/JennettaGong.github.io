@@ -2,7 +2,10 @@
 title: "Long-Term Interactive Driving Simulation: MPC to the Rescue"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: traffic
 scholar_order: 85
+topic_sort_key: 2023915
 permalink: /publication/2023-01-01-085-long-term-interactive-driving-simulation-mpc-to-the-rescue
 date: 2023-01-01
 year: 2023

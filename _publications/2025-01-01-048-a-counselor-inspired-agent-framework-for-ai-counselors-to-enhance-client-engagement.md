@@ -2,7 +2,10 @@
 title: "A counselor-inspired agent framework for AI counselors to enhance client engagement"
 collection: publications
 category: manuscripts
+publication_group: intelligent-system-design
+publication_subtopic: wellbeing
 scholar_order: 48
+topic_sort_key: 2025952
 permalink: /publication/2025-01-01-048-a-counselor-inspired-agent-framework-for-ai-counselors-to-enhance-client-engagement
 date: 2025-01-01
 year: 2025

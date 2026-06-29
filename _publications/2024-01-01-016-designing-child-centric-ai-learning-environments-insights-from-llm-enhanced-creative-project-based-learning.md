@@ -2,7 +2,10 @@
 title: "Designing child-centric AI learning environments: Insights from LLM-enhanced creative project-based learning"
 collection: publications
 category: preprints
+publication_group: intelligent-system-design
+publication_subtopic: education
 scholar_order: 16
+topic_sort_key: 2024984
 permalink: /publication/2024-01-01-016-designing-child-centric-ai-learning-environments-insights-from-llm-enhanced-creative-project-based-learning
 date: 2024-01-01
 year: 2024

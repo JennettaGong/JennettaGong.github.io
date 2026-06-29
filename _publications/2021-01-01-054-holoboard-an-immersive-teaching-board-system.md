@@ -2,7 +2,10 @@
 title: "HoloBoard: an Immersive Teaching Board System"
 collection: publications
 category: conferences
+publication_group: intelligent-system-design
+publication_subtopic: education
 scholar_order: 54
+topic_sort_key: 2021946
 permalink: /publication/2021-01-01-054-holoboard-an-immersive-teaching-board-system
 date: 2021-01-01
 year: 2021

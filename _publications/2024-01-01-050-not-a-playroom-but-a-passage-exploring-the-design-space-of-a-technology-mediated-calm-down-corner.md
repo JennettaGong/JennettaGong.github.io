@@ -2,7 +2,10 @@
 title: "Not a playroom, but a passage: Exploring the design space of a technology-mediated calm-down corner"
 collection: publications
 category: conferences
+publication_group: human-understanding
+publication_subtopic: qualitative
 scholar_order: 50
+topic_sort_key: 2024950
 permalink: /publication/2024-01-01-050-not-a-playroom-but-a-passage-exploring-the-design-space-of-a-technology-mediated-calm-down-corner
 date: 2024-01-01
 year: 2024

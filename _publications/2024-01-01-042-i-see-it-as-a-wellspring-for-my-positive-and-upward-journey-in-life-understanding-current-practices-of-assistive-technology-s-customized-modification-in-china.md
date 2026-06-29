@@ -2,7 +2,10 @@
 title: "\" I see it as a wellspring for my positive and upward journey in life.\": Understanding Current Practices of Assistive Technology's Customized Modification in China"
 collection: publications
 category: conferences
+publication_group: human-understanding
+publication_subtopic: qualitative
 scholar_order: 42
+topic_sort_key: 2024958
 permalink: /publication/2024-01-01-042-i-see-it-as-a-wellspring-for-my-positive-and-upward-journey-in-life-understanding-current-practices-of-assistive-technology-s-customized-modification-in-china
 date: 2024-01-01
 year: 2024
