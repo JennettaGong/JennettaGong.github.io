@@ -10,7 +10,7 @@ permalink: /publication/2024-01-01-005-surrealdriver-designing-llm-powered-gener
 date: 2024-01-01
 year: 2024
 venue: "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems ..."
-authors: "Y Jin, R Yang, Z Yi, X Shen, H Peng, X Liu, J Qin, J Li, J Xie, P Gao, ..."
+authors: "Y Jin, R Yang, Z Yi, X Shen, H Peng, X Liu, J Qin, J Li, J Xie, P Gao, ..., **Jiangtao Gong**"
 link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=AktmI14AAAAJ&pagesize=100&citation_for_view=AktmI14AAAAJ:M05iB0D1s5AC"
 citation: "Y Jin, R Yang, Z Yi, X Shen, H Peng, X Liu, J Qin, J Li, J Xie, P Gao,... (2024). SurrealDriver: Designing LLM-powered generative driver agent framework based on human drivers... driving-thinking data. 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems ...."
 abstract: >-
@@ -28,4 +28,4 @@ abstract: >-
   into using natural language-based human demonstration data for embodied tasks. The driving-thinking
   dataset is available at https://github.com/AIR-DISCOVER/Driving-Thinking-Dataset.
 ---
-**Authors:** Y Jin, R Yang, Z Yi, X Shen, H Peng, X Liu, J Qin, J Li, J Xie, P Gao, ...
+**Authors:** Y Jin, R Yang, Z Yi, X Shen, H Peng, X Liu, J Qin, J Li, J Xie, P Gao, ..., **Jiangtao Gong**

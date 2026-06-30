@@ -9,8 +9,8 @@ permalink: /publication/2023-01-01-035-human-computer-interaction-for-virtual-re
 date: 2023-01-01
 year: 2023
 venue: "Chinese Journal of Image and Graphics 28 (6), 1513-1542"
-authors: "T Jianhua, G Jiangtao, G Nan, F Siwei, L Shan, Y Chun"
+authors: "T Jianhua, G Jiangtao, G Nan, F Siwei, L Shan, Y Chun, **Jiangtao Gong**"
 link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=AktmI14AAAAJ&pagesize=100&citation_for_view=AktmI14AAAAJ:UxriW0iASnsC"
 citation: "T Jianhua, G Jiangtao, G Nan, F Siwei, L Shan, Y Chun (2023). Human-computer interaction for virtual-reality fusion. Chinese Journal of Image and Graphics 28 (6), 1513-1542."
 ---
-**Authors:** T Jianhua, G Jiangtao, G Nan, F Siwei, L Shan, Y Chun
+**Authors:** T Jianhua, G Jiangtao, G Nan, F Siwei, L Shan, Y Chun, **Jiangtao Gong**
