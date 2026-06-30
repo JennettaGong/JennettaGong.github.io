@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "Y Tang, Y Kang, Y Wang, T Wang, C Zhong, J Gong (2025). A counselor-inspired agent framework for AI counselors to enhance client engagement. Technology in Society, 103045."
 ---
 **Authors:** Y Tang, Y Kang, Y Wang, T Wang, C Zhong, **Jiangtao Gong**
-**Venue:** Technology in Society, 103045, 2025
-Recommended citation: Y Tang, Y Kang, Y Wang, T Wang, C Zhong, J Gong (2025). A counselor-inspired agent framework for AI counselors to enhance client engagement. Technology in Society, 103045.

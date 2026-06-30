@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "W Zhang, J Yin, KI Chan, T Sun, T Jin, J Jeung, J Gong (2024). Beyond digital privacy: Uncovering deeper attitudes toward privacy in cameras among older adults. International Journal of Human-Computer Studies 192, 103345."
 ---
 **Authors:** W Zhang, J Yin, KI Chan, T Sun, T Jin, J Jeung, **Jiangtao Gong**
-**Venue:** International Journal of Human-Computer Studies 192, 103345, 2024
-Recommended citation: W Zhang, J Yin, KI Chan, T Sun, T Jin, J Jeung, J Gong (2024). Beyond digital privacy: Uncovering deeper attitudes toward privacy in cameras among older adults. International Journal of Human-Computer Studies 192, 103345.

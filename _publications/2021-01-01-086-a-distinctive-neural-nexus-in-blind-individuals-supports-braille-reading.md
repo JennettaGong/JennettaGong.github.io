@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "R Wang, J Gong, C Zhao, Y Xu, B Hong (2021). A distinctive neural nexus in blind individuals supports Braille reading. bioRxiv."
 ---
 **Authors:** R Wang, **Jiangtao Gong**, C Zhao, Y Xu, B Hong
-**Venue:** bioRxiv, 2021
-Recommended citation: R Wang, J Gong, C Zhao, Y Xu, B Hong (2021). A distinctive neural nexus in blind individuals supports Braille reading. bioRxiv.

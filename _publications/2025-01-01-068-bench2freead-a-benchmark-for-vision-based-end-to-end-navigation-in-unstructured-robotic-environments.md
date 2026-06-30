@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "Y Peng, S Wang, J Yang, S Li, H Wang, J Gong (2025). Bench2FreeAD: A Benchmark for Vision-based End-to-end Navigation in Unstructured Robotic Environments. arXiv preprint arXiv:2503.12180."
 ---
 **Authors:** Y Peng, S Wang, J Yang, S Li, H Wang, **Jiangtao Gong**
-**Venue:** arXiv preprint arXiv:2503.12180, 2025
-Recommended citation: Y Peng, S Wang, J Yang, S Li, H Wang, J Gong (2025). Bench2FreeAD: A Benchmark for Vision-based End-to-end Navigation in Unstructured Robotic Environments. arXiv preprint arXiv:2503.12180.

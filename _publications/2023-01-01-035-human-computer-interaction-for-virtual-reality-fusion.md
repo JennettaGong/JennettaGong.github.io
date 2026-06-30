@@ -14,5 +14,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "T Jianhua, G Jiangtao, G Nan, F Siwei, L Shan, Y Chun (2023). Human-computer interaction for virtual-reality fusion. Chinese Journal of Image and Graphics 28 (6), 1513-1542."
 ---
 **Authors:** T Jianhua, G Jiangtao, G Nan, F Siwei, L Shan, Y Chun
-**Venue:** Chinese Journal of Image and Graphics 28 (6), 1513-1542, 2023
-Recommended citation: T Jianhua, G Jiangtao, G Nan, F Siwei, L Shan, Y Chun (2023). Human-computer interaction for virtual-reality fusion. Chinese Journal of Image and Graphics 28 (6), 1513-1542.

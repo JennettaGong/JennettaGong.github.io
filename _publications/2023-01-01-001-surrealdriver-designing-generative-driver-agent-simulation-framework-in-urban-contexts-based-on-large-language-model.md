@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "Y Jin, X Shen, H Peng, X Liu, J Qin, J Li, J Xie, P Gao, G Zhou, J Gong (2023). Surrealdriver: Designing generative driver agent simulation framework in urban contexts based on large language model. arXiv preprint arXiv:2309.13193 5 (7), 8."
 ---
 **Authors:** Y Jin, X Shen, H Peng, X Liu, J Qin, J Li, J Xie, P Gao, G Zhou, **Jiangtao Gong**
-**Venue:** arXiv preprint arXiv:2309.13193 5 (7), 8, 2023
-Recommended citation: Y Jin, X Shen, H Peng, X Liu, J Qin, J Li, J Xie, P Gao, G Zhou, J Gong (2023). Surrealdriver: Designing generative driver agent simulation framework in urban contexts based on large language model. arXiv preprint arXiv:2309.13193 5 (7), 8.

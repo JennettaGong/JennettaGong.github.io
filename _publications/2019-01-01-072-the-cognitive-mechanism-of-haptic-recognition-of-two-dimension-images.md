@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "W YU, Y LIU, X FU, J GONG, Y XU (2019). The cognitive mechanism of haptic recognition of two-dimension images. Advances in Psychological Science 27 (4), 611."
 ---
 **Authors:** W YU, Y LIU, X FU, **Jiangtao Gong**, Y XU
-**Venue:** Advances in Psychological Science 27 (4), 611, 2019
-Recommended citation: W YU, Y LIU, X FU, J GONG, Y XU (2019). The cognitive mechanism of haptic recognition of two-dimension images. Advances in Psychological Science 27 (4), 611.

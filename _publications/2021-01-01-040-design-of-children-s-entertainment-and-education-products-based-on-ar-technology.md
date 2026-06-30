@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "Y Lu, T Huang, J Liu, J Gong (2021). Design of children's entertainment and education products based on AR technology. International Conference on human-Computer interaction, 292-301."
 ---
 **Authors:** Y Lu, T Huang, J Liu, **Jiangtao Gong**
-**Venue:** International Conference on human-Computer interaction, 292-301, 2021
-Recommended citation: Y Lu, T Huang, J Liu, J Gong (2021). Design of children's entertainment and education products based on AR technology. International Conference on human-Computer interaction, 292-301.

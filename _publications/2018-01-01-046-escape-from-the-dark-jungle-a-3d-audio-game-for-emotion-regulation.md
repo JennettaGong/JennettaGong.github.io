@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "J Gong, Y Shi, J Wang, D Shi, Y Xu (2018). Escape from the Dark Jungle: A 3D Audio Game for Emotion Regulation. International Conference on Virtual, Augmented and Mixed Reality, 57-76."
 ---
 **Authors:** **Jiangtao Gong**, Y Shi, J Wang, D Shi, Y Xu
-**Venue:** International Conference on Virtual, Augmented and Mixed Reality, 57-76, 2018
-Recommended citation: J Gong, Y Shi, J Wang, D Shi, Y Xu (2018). Escape from the Dark Jungle: A 3D Audio Game for Emotion Regulation. International Conference on Virtual, Augmented and Mixed Reality, 57-76.

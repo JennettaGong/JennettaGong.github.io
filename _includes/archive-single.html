@@ -51,6 +51,10 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
+
+    {% if post.collection == 'publications' and post.abstract %}
+      <p class="archive__item-excerpt"><strong>Abstract:</strong> {{ post.abstract }}</p>
+    {% endif %}
     
     {% if post.collection == 'publications' and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>

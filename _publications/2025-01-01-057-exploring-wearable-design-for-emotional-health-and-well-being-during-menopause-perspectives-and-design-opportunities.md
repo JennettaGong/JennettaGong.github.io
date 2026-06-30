@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "W Zhang, H Bao, C Li, Y Zhai, J Liu, J Gong (2025). Exploring Wearable Design for Emotional Health and Well-Being during Menopause: Perspectives and Design Opportunities. Proceedings of the Extended Abstracts of the CHI Conference on Human Factors ...."
 ---
 **Authors:** W Zhang, H Bao, C Li, Y Zhai, J Liu, **Jiangtao Gong**
-**Venue:** Proceedings of the Extended Abstracts of the CHI Conference on Human Factors ..., 2025
-Recommended citation: W Zhang, H Bao, C Li, Y Zhai, J Liu, J Gong (2025). Exploring Wearable Design for Emotional Health and Well-Being during Menopause: Perspectives and Design Opportunities. Proceedings of the Extended Abstracts of the CHI Conference on Human Factors ....

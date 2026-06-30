@@ -15,4 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "W Yu, J Gong, Y Liu, X Fu, Y Xu (2017). 视觉经验在触觉识别二维线条图中的作用."
 ---
 **Authors:** W Yu, **Jiangtao Gong**, Y Liu, X Fu, Y Xu
-Recommended citation: W Yu, J Gong, Y Liu, X Fu, Y Xu (2017). 视觉经验在触觉识别二维线条图中的作用.

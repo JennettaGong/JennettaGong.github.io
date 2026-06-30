@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "Z Han, Z Yan, Y Li, P Li, Y Shi, N Luo, X Gao, Y Shi, P Huang, J Gong,... (2023). M2Sim: A Long-Term Interactive Driving Simulator. CAAI International Conference on Artificial Intelligence, 172-176."
 ---
 **Authors:** Z Han, Z Yan, Y Li, P Li, Y Shi, N Luo, X Gao, Y Shi, P Huang, **Jiangtao Gong**, ...
-**Venue:** CAAI International Conference on Artificial Intelligence, 172-176, 2023
-Recommended citation: Z Han, Z Yan, Y Li, P Li, Y Shi, N Luo, X Gao, Y Shi, P Huang, J Gong,... (2023). M2Sim: A Long-Term Interactive Driving Simulator. CAAI International Conference on Artificial Intelligence, 172-176.

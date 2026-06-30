@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "J Gong, Q Ding, P Xu, Y Zhang, L Zhang, Q Wang (2020). HeliCoach: An Adaptive Multimodal Orientation and Mobility Training System in a Drone-Based Simulated 3D Audio Space. Journal of Computer-Aided Design & Computer Graphics 32 (7), 1129-1136."
 ---
 **Authors:** **Jiangtao Gong**, Q Ding, P Xu, Y Zhang, L Zhang, Q Wang
-**Venue:** Journal of Computer-Aided Design & Computer Graphics 32 (7), 1129-1136, 2020
-Recommended citation: J Gong, Q Ding, P Xu, Y Zhang, L Zhang, Q Wang (2020). HeliCoach: An Adaptive Multimodal Orientation and Mobility Training System in a Drone-Based Simulated 3D Audio Space. Journal of Computer-Aided Design & Computer Graphics 32 (7), 1129-1136.

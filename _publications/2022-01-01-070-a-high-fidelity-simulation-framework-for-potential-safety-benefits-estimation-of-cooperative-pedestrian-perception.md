@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "L Chen, Y Zhang, W Jiang, J Gong, J Shen, M Chu, C Li, Y Pan, Y Shi,... (2022). A High Fidelity Simulation Framework for Potential Safety Benefits Estimation of Cooperative Pedestrian Perception. arXiv e-prints, arXiv: 2210.08731."
 ---
 **Authors:** L Chen, Y Zhang, W Jiang, **Jiangtao Gong**, J Shen, M Chu, C Li, Y Pan, Y Shi, ...
-**Venue:** arXiv e-prints, arXiv: 2210.08731, 2022
-Recommended citation: L Chen, Y Zhang, W Jiang, J Gong, J Shen, M Chu, C Li, Y Pan, Y Shi,... (2022). A High Fidelity Simulation Framework for Potential Safety Benefits Estimation of Cooperative Pedestrian Perception. arXiv e-prints, arXiv: 2210.08731.

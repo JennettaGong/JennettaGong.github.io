@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "J Yang, G Jiangtao, S Yuanchun (2016). The research on interactive experiences of graphical tactile displays for the visually impaired. Journal of Computer-Aided Design & Computer Graphics 28 (9), 1571-1576."
 ---
 **Authors:** J Yang, G Jiangtao, S Yuanchun
-**Venue:** Journal of Computer-Aided Design & Computer Graphics 28 (9), 1571-1576, 2016
-Recommended citation: J Yang, G Jiangtao, S Yuanchun (2016). The research on interactive experiences of graphical tactile displays for the visually impaired. Journal of Computer-Aided Design & Computer Graphics 28 (9), 1571-1576.

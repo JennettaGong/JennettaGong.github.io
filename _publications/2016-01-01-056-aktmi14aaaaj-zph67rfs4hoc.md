@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "丁琦城，龚江涛，史元春，徐迎庆 (2016). 盲人触觉图像显示器的交互体验研究. 计算机辅助设计与图形学学报 28 (9), 1571-1576."
 ---
 **Authors:** 丁琦城，龚江涛，史元春，徐迎庆
-**Venue:** 计算机辅助设计与图形学学报 28 (9), 1571-1576, 2016
-Recommended citation: 丁琦城，龚江涛，史元春，徐迎庆 (2016). 盲人触觉图像显示器的交互体验研究. 计算机辅助设计与图形学学报 28 (9), 1571-1576.

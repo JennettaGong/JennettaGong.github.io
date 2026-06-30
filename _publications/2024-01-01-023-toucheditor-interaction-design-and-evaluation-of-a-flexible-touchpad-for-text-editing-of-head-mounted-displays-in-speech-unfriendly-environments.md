@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: "L Zhan, T Xiong, H Zhang, S Guo, X Chen, J Gong, J Lin, Y Qin (2024). TouchEditor: interaction design and evaluation of a flexible touchpad for text editing of head-mounted displays in speech-unfriendly environments. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous ...."
 ---
 **Authors:** L Zhan, T Xiong, H Zhang, S Guo, X Chen, **Jiangtao Gong**, J Lin, Y Qin
-**Venue:** Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous ..., 2024
-Recommended citation: L Zhan, T Xiong, H Zhang, S Guo, X Chen, J Gong, J Lin, Y Qin (2024). TouchEditor: interaction design and evaluation of a flexible touchpad for text editing of head-mounted displays in speech-unfriendly environments. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous ....

@@ -15,5 +15,3 @@ link: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=
 citation: 'J Gong, W Yu, L Ni, Y Jiao, Y Liu, X Fu, Y Xu (2020). "I can''t name it, but I can perceive it": Conceptual and Operational Design of "Tactile Accuracy" Assisting Tactile Image Cognition. Proceedings of the 22nd International ACM SIGACCESS Conference on Computers ....'
 ---
 **Authors:** **Jiangtao Gong**, W Yu, L Ni, Y Jiao, Y Liu, X Fu, Y Xu
-**Venue:** Proceedings of the 22nd International ACM SIGACCESS Conference on Computers ..., 2020
-Recommended citation: J Gong, W Yu, L Ni, Y Jiao, Y Liu, X Fu, Y Xu (2020). "I can't name it, but I can perceive it": Conceptual and Operational Design of "Tactile Accuracy" Assisting Tactile Image Cognition. Proceedings of the 22nd International ACM SIGACCESS Conference on Computers ....
