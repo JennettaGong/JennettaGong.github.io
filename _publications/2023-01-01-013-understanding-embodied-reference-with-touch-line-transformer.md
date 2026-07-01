@@ -3,7 +3,8 @@ title: "Understanding Embodied Reference with Touch-Line Transformer."
 collection: publications
 category: manuscripts
 publication_group: intelligent-system-design
-publication_subtopic: accessibility
+publication_subtopic: algorithm-optimization
+publication_groups: "human-ai-collaboration"
 scholar_order: 13
 topic_sort_key: 2023987
 permalink: /publication/2023-01-01-013-understanding-embodied-reference-with-touch-line-transformer

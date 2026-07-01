@@ -2,6 +2,7 @@
 title: "A distinctive neural nexus in blind individuals supports Braille reading"
 collection: publications
 category: preprints
+hidden: true
 publication_group: human-understanding
 publication_subtopic: cognitive-instruments
 scholar_order: 86

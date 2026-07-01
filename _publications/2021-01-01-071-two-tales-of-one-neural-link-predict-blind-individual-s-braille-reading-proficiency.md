@@ -2,6 +2,7 @@
 title: "Two tales of one neural link predict blind individual's Braille reading proficiency"
 collection: publications
 category: preprints
+hidden: true
 publication_group: human-understanding
 publication_subtopic: cognitive-instruments
 scholar_order: 71

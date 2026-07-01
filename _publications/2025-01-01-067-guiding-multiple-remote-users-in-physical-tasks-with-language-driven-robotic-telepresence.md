@@ -3,6 +3,8 @@ title: "Guiding Multiple Remote Users in Physical Tasks with Language-driven Rob
 collection: publications
 category: conferences
 publication_group: human-ai-collaboration
+publication_group: intelligent-system-design
+publication_subtopic: education
 scholar_order: 67
 topic_sort_key: 2025933
 permalink: /publication/2025-01-01-067-guiding-multiple-remote-users-in-physical-tasks-with-language-driven-robotic-telepresence

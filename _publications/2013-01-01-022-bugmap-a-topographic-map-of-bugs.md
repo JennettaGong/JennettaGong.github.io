@@ -2,8 +2,8 @@
 title: "BugMap: a topographic map of bugs"
 collection: publications
 category: conferences
-publication_group: human-understanding
-publication_subtopic: quantitative
+publication_group: intelligent-system-design
+publication_subtopic: algorithm-optimization
 scholar_order: 22
 topic_sort_key: 2013978
 permalink: /publication/2013-01-01-022-bugmap-a-topographic-map-of-bugs

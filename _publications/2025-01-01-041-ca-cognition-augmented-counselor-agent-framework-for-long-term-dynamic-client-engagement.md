@@ -2,6 +2,7 @@
 title: "CA+: Cognition Augmented Counselor Agent Framework for Long-term Dynamic Client Engagement"
 collection: publications
 category: preprints
+hidden: true
 publication_group: intelligent-system-design
 publication_subtopic: wellbeing
 scholar_order: 41

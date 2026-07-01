@@ -2,6 +2,7 @@
 title: "Can quadruped navigation robots be used as guide dogs?"
 collection: publications
 category: preprints
+hidden: true
 publication_group: intelligent-system-design
 publication_subtopic: accessibility
 scholar_order: 24

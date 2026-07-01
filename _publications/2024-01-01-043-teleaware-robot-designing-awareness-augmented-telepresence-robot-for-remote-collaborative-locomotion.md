@@ -3,6 +3,8 @@ title: "Teleaware robot: Designing awareness-augmented telepresence robot for re
 collection: publications
 category: conferences
 publication_group: human-ai-collaboration
+publication_group: intelligent-system-design
+publication_subtopic: education
 scholar_order: 43
 topic_sort_key: 2024957
 permalink: /publication/2024-01-01-043-teleaware-robot-designing-awareness-augmented-telepresence-robot-for-remote-collaborative-locomotion

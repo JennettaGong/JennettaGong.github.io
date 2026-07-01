@@ -17,8 +17,10 @@ author_profile: true
 
 {% include base_path %}
 
+{% assign visible_publications = site.publications | where_exp: "post", "post.hidden != true" %}
+
 {% for group in site.data.publication_topics %}
-  {% assign all_publications = site.publications | sort: "topic_sort_key" | reverse %}
+  {% assign all_publications = visible_publications | sort: "topic_sort_key" | reverse %}
   {% assign group_count = 0 %}
   {% for post in all_publications %}
     {% if post.publication_group == group.key or post.publication_groups contains group.key %}

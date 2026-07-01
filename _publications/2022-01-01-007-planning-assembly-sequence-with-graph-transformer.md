@@ -2,8 +2,8 @@
 title: "Planning assembly sequence with graph transformer"
 collection: publications
 category: preprints
-publication_group: human-understanding
-publication_subtopic: quantitative
+publication_group: intelligent-system-design
+publication_subtopic: algorithm-optimization
 scholar_order: 7
 topic_sort_key: 2022993
 permalink: /publication/2022-01-01-007-planning-assembly-sequence-with-graph-transformer

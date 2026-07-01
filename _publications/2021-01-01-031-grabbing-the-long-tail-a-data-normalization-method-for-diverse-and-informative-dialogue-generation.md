@@ -2,8 +2,8 @@
 title: "Grabbing the Long Tail: A data normalization method for diverse and informative dialogue generation"
 collection: publications
 category: manuscripts
-publication_group: human-understanding
-publication_subtopic: quantitative
+publication_group: intelligent-system-design
+publication_subtopic: algorithm-optimization
 scholar_order: 31
 topic_sort_key: 2021969
 permalink: /publication/2021-01-01-031-grabbing-the-long-tail-a-data-normalization-method-for-diverse-and-informative-dialogue-generation

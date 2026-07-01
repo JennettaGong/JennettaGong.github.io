@@ -2,6 +2,7 @@
 title: "Surrealdriver: Designing generative driver agent simulation framework in urban contexts based on large language model"
 collection: publications
 category: preprints
+hidden: true
 publication_group: intelligent-system-design
 publication_subtopic: traffic
 scholar_order: 1

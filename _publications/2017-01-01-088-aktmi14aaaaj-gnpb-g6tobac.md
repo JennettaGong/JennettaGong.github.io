@@ -2,8 +2,7 @@
 title: "视觉经验在触觉识别二维线条图中的作用"
 collection: publications
 category: manuscripts
-publication_group: intelligent-system-design
-publication_subtopic: accessibility
+publication_group: surveys
 scholar_order: 88
 topic_sort_key: 2017912
 permalink: /publication/2017-01-01-088-aktmi14aaaaj-gnpb-g6tobac

@@ -2,8 +2,8 @@
 title: "Evaluation of Pedestrian Safety in a High-Fidelity Simulation Environment Framework"
 collection: publications
 category: conferences
-publication_group: human-understanding
-publication_subtopic: quantitative
+publication_group: intelligent-system-design
+publication_subtopic: traffic
 scholar_order: 69
 topic_sort_key: 2024931
 permalink: /publication/2024-01-01-069-evaluation-of-pedestrian-safety-in-a-high-fidelity-simulation-environment-framework

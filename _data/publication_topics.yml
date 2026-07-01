@@ -7,6 +7,10 @@
       title: "Education & Learning"
     - key: accessibility
       title: "Accessibility"
+    - key: interaction-design
+      title: "Interaction Design"
+    - key: algorithm-optimization
+      title: "Algorithm Optimization"
     - key: wellbeing
       title: "Well-being"
 - key: human-ai-collaboration
