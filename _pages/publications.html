@@ -19,6 +19,11 @@ author_profile: true
 
 {% assign visible_publications = site.publications | where_exp: "post", "post.hidden != true" %}
 
+<div class="wordwrap">
+  我的具体研究成果主要在如下方向：<br>
+  My specific research contributions are mainly in the following directions:
+</div>
+
 {% for group in site.data.publication_topics %}
   {% assign all_publications = visible_publications | sort: "topic_sort_key" | reverse %}
   {% assign group_count = 0 %}
@@ -35,18 +40,28 @@ author_profile: true
       </summary>
       <div class="publication-topic__content">
         {% if group.subtopics %}
-          {% assign group_publications = all_publications | where: "publication_group", group.key %}
           {% for subtopic in group.subtopics %}
-            {% assign subtopic_publications = group_publications | where: "publication_subtopic", subtopic.key | sort: "topic_sort_key" | reverse %}
-            {% if subtopic_publications.size > 0 %}
+            {% assign subtopic_count = 0 %}
+            {% for post in all_publications %}
+              {% if post.publication_group == group.key or post.publication_groups contains group.key %}
+                {% if post.publication_subtopic == subtopic.key or post.publication_subtopics contains subtopic.key %}
+                  {% assign subtopic_count = subtopic_count | plus: 1 %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+            {% if subtopic_count > 0 %}
               <details class="publication-subtopic">
                 <summary class="publication-subtopic__summary">
                   <span class="publication-topic__title">{{ subtopic.title }}</span>
-                  <span class="publication-topic__count">{{ subtopic_publications.size }}</span>
+                  <span class="publication-topic__count">{{ subtopic_count }}</span>
                 </summary>
                 <div class="publication-subtopic__content">
-                  {% for post in subtopic_publications %}
-                    {% include archive-single.html %}
+                  {% for post in all_publications %}
+                    {% if post.publication_group == group.key or post.publication_groups contains group.key %}
+                      {% if post.publication_subtopic == subtopic.key or post.publication_subtopics contains subtopic.key %}
+                        {% include archive-single.html %}
+                      {% endif %}
+                    {% endif %}
                   {% endfor %}
                 </div>
               </details>

@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 publication_group: intelligent-system-design
 publication_subtopic: education
+publication_subtopic: algorithm-optimization
 scholar_order: 29
 topic_sort_key: 2022971
 permalink: /publication/2022-01-01-029-learning-with-yourself-a-tangible-twin-robot-system-to-promote-stem-education

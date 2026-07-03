@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 publication_group: intelligent-system-design
 publication_subtopic: education
+publication_subtopics: [interaction-design]
 scholar_order: 30
 topic_sort_key: 2025970
 permalink: /publication/2025-01-01-030-designing-llm-simulated-immersive-spaces-to-enhance-autistic-children-s-social-affordances-understanding-in-traffic-settings

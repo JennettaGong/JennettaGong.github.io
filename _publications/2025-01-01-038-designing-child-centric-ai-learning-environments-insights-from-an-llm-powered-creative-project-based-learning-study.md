@@ -5,6 +5,7 @@ category: manuscripts
 publication_group: intelligent-system-design
 publication_groups: "human-ai-collaboration"
 publication_subtopic: education
+publication_subtopics: [interaction-design]
 scholar_order: 38
 topic_sort_key: 2025962
 permalink: /publication/2025-01-01-038-designing-child-centric-ai-learning-environments-insights-from-an-llm-powered-creative-project-based-learning-study

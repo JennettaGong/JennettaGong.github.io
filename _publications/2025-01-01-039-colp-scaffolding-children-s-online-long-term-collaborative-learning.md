@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 publication_group: intelligent-system-design
 publication_subtopic: education
+publication_subtopics: [interaction-design]
 scholar_order: 39
 topic_sort_key: 2025961
 permalink: /publication/2025-01-01-039-colp-scaffolding-children-s-online-long-term-collaborative-learning

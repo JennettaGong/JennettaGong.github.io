@@ -3,6 +3,7 @@ title: "CoIRL-AD: Collaborative-Competitive Imitation-Reinforcement Learning in 
 collection: publications
 category: preprints
 publication_group: intelligent-system-design
+publication_subtopic: algorithm-optimization
 publication_subtopic: traffic
 scholar_order: 83
 topic_sort_key: 2025917

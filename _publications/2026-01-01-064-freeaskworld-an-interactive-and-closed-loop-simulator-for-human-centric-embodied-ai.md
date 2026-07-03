@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 publication_group: intelligent-system-design
 publication_groups: "human-ai-collaboration"
-publication_subtopic: traffic
+publication_subtopic: algorithm-optimization
 scholar_order: 64
 topic_sort_key: 2026936
 permalink: /publication/2026-01-01-064-freeaskworld-an-interactive-and-closed-loop-simulator-for-human-centric-embodied-ai

@@ -4,6 +4,8 @@ collection: publications
 category: conferences
 publication_group: intelligent-system-design
 publication_subtopic: wellbeing
+publication_subtopic: algorithm-optimization
+publication_subtopics: [interaction-design]
 scholar_order: 65
 topic_sort_key: 2026935
 permalink: /publication/2026-01-01-065-an-llm-based-simulation-framework-for-embodied-conversational-agents-in-psychological-counseling

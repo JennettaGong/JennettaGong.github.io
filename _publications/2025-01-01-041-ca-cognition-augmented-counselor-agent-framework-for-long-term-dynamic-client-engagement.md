@@ -5,6 +5,7 @@ category: preprints
 hidden: true
 publication_group: intelligent-system-design
 publication_subtopic: wellbeing
+publication_subtopics: [interaction-design]
 scholar_order: 41
 topic_sort_key: 2025959
 permalink: /publication/2025-01-01-041-ca-cognition-augmented-counselor-agent-framework-for-long-term-dynamic-client-engagement

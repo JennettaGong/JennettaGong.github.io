@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 publication_group: intelligent-system-design
 publication_subtopic: accessibility
+publication_subtopics: [interaction-design]
 scholar_order: 49
 topic_sort_key: 2016951
 permalink: /publication/2016-01-01-049-the-research-on-interactive-experiences-of-graphical-tactile-displays-for-the-visually-impaired

@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 publication_group: intelligent-system-design
 publication_subtopic: traffic
+publication_subtopic: algorithm-optimization
 scholar_order: 19
 topic_sort_key: 2023981
 permalink: /publication/2023-01-01-019-int2-interactive-trajectory-prediction-at-intersections

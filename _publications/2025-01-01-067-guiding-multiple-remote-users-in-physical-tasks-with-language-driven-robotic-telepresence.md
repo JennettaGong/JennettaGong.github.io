@@ -5,6 +5,7 @@ category: conferences
 publication_group: human-ai-collaboration
 publication_group: intelligent-system-design
 publication_subtopic: education
+publication_subtopics: [interaction-design]
 scholar_order: 67
 topic_sort_key: 2025933
 permalink: /publication/2025-01-01-067-guiding-multiple-remote-users-in-physical-tasks-with-language-driven-robotic-telepresence

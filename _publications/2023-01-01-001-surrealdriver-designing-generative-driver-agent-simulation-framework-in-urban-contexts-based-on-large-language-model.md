@@ -5,6 +5,7 @@ category: preprints
 hidden: true
 publication_group: intelligent-system-design
 publication_subtopic: traffic
+publication_subtopic: algorithm-optimization
 scholar_order: 1
 topic_sort_key: 2023999
 permalink: /publication/2023-01-01-001-surrealdriver-designing-generative-driver-agent-simulation-framework-in-urban-contexts-based-on-large-language-model

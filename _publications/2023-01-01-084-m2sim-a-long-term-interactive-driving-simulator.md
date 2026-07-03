@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 publication_group: intelligent-system-design
 publication_subtopic: traffic
+publication_subtopic: algorithm-optimization
 scholar_order: 84
 topic_sort_key: 2023916
 permalink: /publication/2023-01-01-084-m2sim-a-long-term-interactive-driving-simulator

@@ -5,6 +5,7 @@ category: conferences
 publication_group: intelligent-system-design
 publication_groups: "human-ai-collaboration"
 publication_subtopic: accessibility
+publication_subtopics: [interaction-design]
 scholar_order: 4
 topic_sort_key: 2023996
 permalink: /publication/2023-01-01-004-i-am-the-follower-also-the-boss-exploring-different-levels-of-autonomy-and-machine-forms-of-guiding-robots-for-the-visually-impaired

@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 publication_group: intelligent-system-design
 publication_subtopic: traffic
+publication_subtopic: algorithm-optimization
 scholar_order: 6
 topic_sort_key: 2024994
 permalink: /publication/2024-01-01-006-large-language-models-powered-context-aware-motion-prediction-in-autonomous-driving

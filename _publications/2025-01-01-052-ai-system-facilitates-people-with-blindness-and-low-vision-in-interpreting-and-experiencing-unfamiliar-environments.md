@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 publication_group: intelligent-system-design
 publication_subtopic: accessibility
+publication_subtopics: [interaction-design]
 scholar_order: 52
 topic_sort_key: 2025948
 permalink: /publication/2025-01-01-052-ai-system-facilitates-people-with-blindness-and-low-vision-in-interpreting-and-experiencing-unfamiliar-environments

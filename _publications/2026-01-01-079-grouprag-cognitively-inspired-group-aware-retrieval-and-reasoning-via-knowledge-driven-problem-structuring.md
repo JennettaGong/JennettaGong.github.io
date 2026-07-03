@@ -3,6 +3,8 @@ title: "GroupRAG: Cognitively Inspired Group-Aware Retrieval and Reasoning via K
 collection: publications
 category: preprints
 publication_group: human-ai-collaboration
+publication_group: intelligent-system-design
+publication_subtopic: algorithm-optimization
 scholar_order: 79
 topic_sort_key: 2026921
 permalink: /publication/2026-01-01-079-grouprag-cognitively-inspired-group-aware-retrieval-and-reasoning-via-knowledge-driven-problem-structuring

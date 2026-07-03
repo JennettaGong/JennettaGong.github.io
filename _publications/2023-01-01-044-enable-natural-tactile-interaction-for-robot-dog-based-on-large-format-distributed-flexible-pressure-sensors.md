@@ -3,7 +3,8 @@ title: "Enable natural tactile interaction for robot dog based on large-format d
 collection: publications
 category: preprints
 publication_group: intelligent-system-design
-publication_subtopic: accessibility
+publication_subtopics: [interaction-design]
+publication_subtopic: algorithm-optimization
 scholar_order: 44
 topic_sort_key: 2023956
 permalink: /publication/2023-01-01-044-enable-natural-tactile-interaction-for-robot-dog-based-on-large-format-distributed-flexible-pressure-sensors

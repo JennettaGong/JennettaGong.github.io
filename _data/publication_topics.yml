@@ -1,16 +1,16 @@
 - key: intelligent-system-design
   title: "Intelligent System Design"
   subtopics:
-    - key: traffic
-      title: "Traffic & Autonomous Driving"
-    - key: education
-      title: "Education & Learning"
-    - key: accessibility
-      title: "Accessibility"
     - key: interaction-design
       title: "Interaction Design"
     - key: algorithm-optimization
       title: "Algorithm Optimization"
+    - key: education
+      title: "Education & Learning"
+    - key: traffic
+      title: "Traffic & Autonomous Driving"
+    - key: accessibility
+      title: "Accessibility"
     - key: wellbeing
       title: "Well-being"
 - key: human-ai-collaboration

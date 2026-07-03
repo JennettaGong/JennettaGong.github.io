@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 publication_group: intelligent-system-design
 publication_subtopic: traffic
+publication_subtopic: algorithm-optimization
 scholar_order: 32
 topic_sort_key: 2025968
 permalink: /publication/2025-01-01-032-a-comprehensive-llm-powered-framework-for-driving-intelligence-evaluation

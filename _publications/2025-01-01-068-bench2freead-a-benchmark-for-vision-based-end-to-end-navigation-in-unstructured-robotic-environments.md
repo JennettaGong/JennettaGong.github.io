@@ -4,6 +4,7 @@ collection: publications
 category: preprints
 publication_group: intelligent-system-design
 publication_subtopic: traffic
+publication_subtopic: algorithm-optimization
 scholar_order: 68
 topic_sort_key: 2025932
 permalink: /publication/2025-01-01-068-bench2freead-a-benchmark-for-vision-based-end-to-end-navigation-in-unstructured-robotic-environments
