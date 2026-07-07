@@ -3,7 +3,7 @@ title: "Multi-factor Analysis Assisting T-Image Design for Tactile Cognition"
 collection: publications
 category: manuscripts
 publication_group: human-understanding
-publication_subtopic: cognitive-instruments
+publication_subtopic: quantitative
 scholar_order: 73
 topic_sort_key: 2018927
 permalink: /publication/2018-01-01-073-multi-factor-analysis-assisting-t-image-design-for-tactile-cognition

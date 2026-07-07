@@ -4,6 +4,8 @@ collection: publications
 category: manuscripts
 publication_group: intelligent-system-design
 publication_subtopic: accessibility
+publication_group: human-understanding
+publication_subtopic: quantitative
 scholar_order: 51
 topic_sort_key: 2018949
 permalink: /publication/2018-01-01-051-aktmi14aaaaj-kndyix-mwkoc

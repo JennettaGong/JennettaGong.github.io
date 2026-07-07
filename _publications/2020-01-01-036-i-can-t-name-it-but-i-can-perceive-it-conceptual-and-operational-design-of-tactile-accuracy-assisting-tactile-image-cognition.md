@@ -4,6 +4,8 @@ collection: publications
 category: conferences
 publication_group: intelligent-system-design
 publication_subtopic: accessibility
+publication_group: human-understanding
+publication_subtopic: quantitative
 scholar_order: 36
 topic_sort_key: 2020964
 permalink: /publication/2020-01-01-036-i-can-t-name-it-but-i-can-perceive-it-conceptual-and-operational-design-of-tactile-accuracy-assisting-tactile-image-cognition
