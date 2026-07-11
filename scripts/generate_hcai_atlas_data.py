@@ -101,6 +101,20 @@ DOMAINS = {
     ]),
 }
 
+# Stable semantic vertical axis used by the Atlas (0 = top, 5 = bottom).
+# Domain defaults keep the map legible; keyword overrides place hybrid topics
+# according to what they represent rather than only by their color/domain.
+DOMAIN_LEVELS = {
+    "ai": 0, "mobility": 1, "interaction": 2, "education": 2,
+    "wellbeing": 2, "evaluation": 3, "methods": 4, "cognition": 5,
+}
+LEVEL_OVERRIDES = {
+    "Human-State Modeling": 0, "World Models": 0, "Trajectory Prediction": 0,
+    "Algorithmic Attention": 0, "End-to-End Learning": 0,
+    "Embodied AI": 2, "Autonomous Driving": 2, "Closed-Loop Simulation": 2,
+    "Simulation": 3, "Dataset Construction": 3, "Behavioral Sensing": 3,
+}
+
 def frontmatter(path: Path) -> dict[str, str]:
     text = path.read_text(encoding="utf-8", errors="replace")
     head = text.split("---", 2)[1] if text.startswith("---") else ""
@@ -124,14 +138,15 @@ for rel, item in CACHE.items():
     })
 
 nodes = []
-for level, (domain, (title, color, terms)) in enumerate(DOMAINS.items()):
+for domain, (title, color, terms) in DOMAINS.items():
     for order, (label, aliases) in enumerate(terms):
         ids=[]
         for p in papers:
             hay=(p["title"]+" "+p["abstract"]).lower()
             if any(a.lower() in hay for a in aliases): ids.append(p["id"])
         nodes.append({"id": re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-"), "name":label,
-                      "domain":domain, "level":min(5, order//2), "paperIds":ids, "aliases":aliases})
+                      "domain":domain, "level":LEVEL_OVERRIDES.get(label, DOMAIN_LEVELS[domain]),
+                      "paperIds":ids, "aliases":aliases})
 
 edges=[]
 for domain in DOMAINS:
