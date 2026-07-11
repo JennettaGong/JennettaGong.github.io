@@ -112,16 +112,38 @@ LEVEL_OVERRIDES = {
     "Human-State Modeling": 0, "World Models": 0, "Trajectory Prediction": 0,
     "Algorithmic Attention": 0, "End-to-End Learning": 0,
     "Embodied AI": 2, "Autonomous Driving": 2, "Closed-Loop Simulation": 2,
+    "Human–Robot Interaction": 2, "Guide Robots": 2, "Assistive Technology": 2,
+    "Emotional Support": 2,
     "Simulation": 3, "Dataset Construction": 3, "Behavioral Sensing": 3,
+    "Driving Cognition": 5, "Hazard Perception": 5,
 }
 
-def frontmatter(path: Path) -> dict[str, str]:
+TAXONOMY_LEVELS = {
+    "algorithm-optimization": 0,
+    "intelligent-system-design": 2,
+    "interaction-design": 2,
+    "education": 2,
+    "traffic": 2,
+    "accessibility": 2,
+    "wellbeing": 2,
+    "human-ai-collaboration": 2,
+    "surveys": 3,
+    "quantitative": 4,
+    "qualitative": 4,
+    "human-understanding": 4,
+    "cognitive-instruments": 5,
+}
+
+def frontmatter(path: Path) -> dict[str, object]:
     text = path.read_text(encoding="utf-8", errors="replace")
     head = text.split("---", 2)[1] if text.startswith("---") else ""
     out = {}
     for key in ("title", "year", "venue", "authors", "permalink", "link"):
         m = re.search(rf"(?m)^{key}:\s*[\"']?(.*?)[\"']?\s*$", head)
         if m: out[key] = m.group(1).strip().strip('"')
+    out["publication_taxonomy"] = sorted({
+        key for key in TAXONOMY_LEVELS if re.search(rf"\b{re.escape(key)}\b", head)
+    })
     return out
 
 papers = []
@@ -135,7 +157,29 @@ for rel, item in CACHE.items():
         "year": int(meta.get("year") or item.get("year") or 0), "venue": meta.get("venue", ""),
         "authors": meta.get("authors", ""), "url": meta.get("permalink", "/publications/"),
         "external": meta.get("link", item.get("url", "")), "abstract": abstract,
+        "taxonomy": meta.get("publication_taxonomy", []),
     })
+
+paper_by_id = {p["id"]: p for p in papers}
+
+def atlas_level(label: str, domain: str, paper_ids: list[str]) -> tuple[int, str]:
+    """Infer vertical placement from the same taxonomy used on Publications."""
+    if label in LEVEL_OVERRIDES:
+        return LEVEL_OVERRIDES[label], "keyword-override"
+    # Concepts that are unambiguously algorithmic, methodological, or cognitive
+    # keep their semantic identity even when used by papers in several groups.
+    if domain == "ai": return 0, "semantic-domain"
+    if domain == "methods": return 4, "semantic-domain"
+    if domain == "cognition": return 5, "semantic-domain"
+    scores: dict[int, int] = {}
+    for paper_id in paper_ids:
+        for tag in paper_by_id.get(paper_id, {}).get("taxonomy", []):
+            level = TAXONOMY_LEVELS[tag]
+            scores[level] = scores.get(level, 0) + 1
+    if scores:
+        level = max(scores, key=lambda value: (scores[value], -abs(value - DOMAIN_LEVELS[domain])))
+        return level, "publication-taxonomy"
+    return DOMAIN_LEVELS[domain], "domain-default"
 
 nodes = []
 for domain, (title, color, terms) in DOMAINS.items():
@@ -144,8 +188,9 @@ for domain, (title, color, terms) in DOMAINS.items():
         for p in papers:
             hay=(p["title"]+" "+p["abstract"]).lower()
             if any(a.lower() in hay for a in aliases): ids.append(p["id"])
+        level, level_source = atlas_level(label, domain, ids)
         nodes.append({"id": re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-"), "name":label,
-                      "domain":domain, "level":LEVEL_OVERRIDES.get(label, DOMAIN_LEVELS[domain]),
+                      "domain":domain, "level":level, "levelSource":level_source,
                       "paperIds":ids, "aliases":aliases})
 
 edges=[]
