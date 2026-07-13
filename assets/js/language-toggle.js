@@ -18,7 +18,10 @@
   }
   document.addEventListener('click', function (event) {
     const button = event.target.closest('[data-set-lang]');
-    if (button) apply(button.dataset.setLang);
+    if (button) {
+      event.preventDefault();
+      apply(button.dataset.setLang);
+    }
   });
   document.addEventListener('DOMContentLoaded', function () { apply(preferred()); });
   window.siteLanguage = { get: preferred, set: apply };
