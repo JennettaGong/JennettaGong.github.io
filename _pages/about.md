@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Jiangtao Gong"
+title_zh: "龚江涛"
 author_profile: true
 redirect_from: [/about/, /about.html]
 ---

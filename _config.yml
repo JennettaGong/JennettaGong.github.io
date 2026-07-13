@@ -10,6 +10,7 @@
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Jiangtao Gong - 龚江涛"
+title_zh                 : "龚江涛"
 title_separator          : "-"
 name                     : &name "Jiangtao Gong"
 description              : &description "Jiangtao Gong's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -25,10 +26,14 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Jiangtao Gong"
+  name_zh          : "龚江涛"
   pronouns         : # example: "she/her"  
   bio              : "Associate Professor"
+  bio_zh           : "副教授"
   location         : "China"
+  location_zh      : "中国"
   employer         : "Shanghai Jiao Tong University"
+  employer_zh      : "上海交通大学"
   uri              : # URL
   email            : "gongjiangtao@sjtu.edu.cn" 
 
