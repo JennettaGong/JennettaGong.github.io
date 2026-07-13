@@ -4,77 +4,18 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">
-    Jiangtao Gong has published over 40 papers in top-tier human-computer interaction venues, such as CHI, IJHCS, CSCW, UIST, and IMWUT, and in leading AI and robotics venues, including NeurIPS, AAAI, ICRA, IROS, WWW, ICCV, and ICLR. He also holds more than 30 domestic and international invention patents. You can also find his articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
-  </div>
-{% endif %}
-
-<div class="wordwrap">
-  龚江涛以第一作者或通讯作者身份已在顶级人机交互领域期刊与会议（如 CHI、IJHCS、CSCW、UIST 和 IMWUT）以及人工智能与机器人领域的重要会议（包括 NeurIPS、AAAI、ICRA、IROS、WWW、ICCV 和 ICLR）发表论文 40 余篇，并拥有 30 余项国内外发明专利。您还可以在 <a href="{{ site.author.googlescholar }}">Google Scholar 个人主页</a> 查看论文列表。
-</div>
-
-{% include base_path %}
-
-{% assign visible_publications = site.publications | where_exp: "post", "post.hidden != true" %}
-
-<div class="wordwrap">
-  我的具体研究成果主要在如下方向：<br>
-  My specific research contributions are mainly in the following directions:
-</div>
-
+<div class="atlas-page">
+<p class="atlas-kicker"><span data-lang="en">RESEARCH OUTPUT · 40+ PUBLICATIONS</span><span data-lang="zh">研究成果 · 40 余篇论文</span></p>
+<p class="atlas-lead" data-lang="en">Jiangtao Gong has published 40+ papers in leading HCI, AI, and robotics venues, including CHI, UIST, CSCW, NeurIPS, AAAI, ICRA, IROS, WWW, ICCV, and ICLR. See the complete record on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+<p class="atlas-lead" data-lang="zh">龚江涛以第一作者或通讯作者身份，在 CHI、UIST、CSCW、NeurIPS、AAAI、ICRA、IROS、WWW、ICCV、ICLR 等人机交互、人工智能与机器人领域重要会议和期刊发表论文 40 余篇。完整列表请见 <a href="{{ site.author.googlescholar }}">Google Scholar</a>。</p>
+{% include base_path %}{% assign visible_publications = site.publications | where_exp: "post", "post.hidden != true" %}
 {% for group in site.data.publication_topics %}
-  {% assign all_publications = visible_publications | sort: "topic_sort_key" | reverse %}
-  {% assign group_count = 0 %}
-  {% for post in all_publications %}
-    {% if post.publication_group == group.key or post.publication_groups contains group.key %}
-      {% assign group_count = group_count | plus: 1 %}
-    {% endif %}
-  {% endfor %}
-  {% if group_count > 0 %}
-    <details class="publication-topic">
-      <summary class="publication-topic__summary">
-        <span class="publication-topic__title">{{ group.title }}</span>
-        <span class="publication-topic__count">{{ group_count }}</span>
-      </summary>
-      <div class="publication-topic__content">
-        {% if group.subtopics %}
-          {% for subtopic in group.subtopics %}
-            {% assign subtopic_count = 0 %}
-            {% for post in all_publications %}
-              {% if post.publication_group == group.key or post.publication_groups contains group.key %}
-                {% if post.publication_subtopic == subtopic.key or post.publication_subtopics contains subtopic.key %}
-                  {% assign subtopic_count = subtopic_count | plus: 1 %}
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            {% if subtopic_count > 0 %}
-              <details class="publication-subtopic">
-                <summary class="publication-subtopic__summary">
-                  <span class="publication-topic__title">{{ subtopic.title }}</span>
-                  <span class="publication-topic__count">{{ subtopic_count }}</span>
-                </summary>
-                <div class="publication-subtopic__content">
-                  {% for post in all_publications %}
-                    {% if post.publication_group == group.key or post.publication_groups contains group.key %}
-                      {% if post.publication_subtopic == subtopic.key or post.publication_subtopics contains subtopic.key %}
-                        {% include archive-single.html %}
-                      {% endif %}
-                    {% endif %}
-                  {% endfor %}
-                </div>
-              </details>
-            {% endif %}
-          {% endfor %}
-        {% else %}
-          {% for post in all_publications %}
-            {% if post.publication_group == group.key or post.publication_groups contains group.key %}
-              {% include archive-single.html %}
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-      </div>
-    </details>
-  {% endif %}
+  {% assign all_publications = visible_publications | sort: "topic_sort_key" | reverse %}{% assign group_count = 0 %}
+  {% for post in all_publications %}{% if post.publication_group == group.key or post.publication_groups contains group.key %}{% assign group_count = group_count | plus: 1 %}{% endif %}{% endfor %}
+  {% if group_count > 0 %}<details class="publication-topic"><summary class="publication-topic__summary"><span class="publication-topic__title"><span data-lang="en">{{ group.title }}</span><span data-lang="zh">{{ group.title_zh | default: group.title }}</span></span><span class="publication-topic__count">{{ group_count }}</span></summary><div class="publication-topic__content">
+  {% if group.subtopics %}{% for subtopic in group.subtopics %}{% assign subtopic_count = 0 %}{% for post in all_publications %}{% if post.publication_group == group.key or post.publication_groups contains group.key %}{% if post.publication_subtopic == subtopic.key or post.publication_subtopics contains subtopic.key %}{% assign subtopic_count = subtopic_count | plus: 1 %}{% endif %}{% endif %}{% endfor %}
+  {% if subtopic_count > 0 %}<details class="publication-subtopic"><summary class="publication-subtopic__summary"><span class="publication-topic__title"><span data-lang="en">{{ subtopic.title }}</span><span data-lang="zh">{{ subtopic.title_zh | default: subtopic.title }}</span></span><span class="publication-topic__count">{{ subtopic_count }}</span></summary><div class="publication-subtopic__content">{% for post in all_publications %}{% if post.publication_group == group.key or post.publication_groups contains group.key %}{% if post.publication_subtopic == subtopic.key or post.publication_subtopics contains subtopic.key %}{% include archive-single.html %}{% endif %}{% endif %}{% endfor %}</div></details>{% endif %}{% endfor %}
+  {% else %}{% for post in all_publications %}{% if post.publication_group == group.key or post.publication_groups contains group.key %}{% include archive-single.html %}{% endif %}{% endfor %}{% endif %}
+  </div></details>{% endif %}
 {% endfor %}
+</div>

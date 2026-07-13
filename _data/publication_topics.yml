@@ -1,28 +1,41 @@
 - key: intelligent-system-design
   title: "Intelligent System Design"
+  title_zh: "智能系统设计"
   subtopics:
     - key: interaction-design
       title: "Interaction Design"
+      title_zh: "交互设计"
     - key: algorithm-optimization
       title: "Algorithm Optimization"
+      title_zh: "算法优化"
     - key: education
       title: "Education & Learning"
+      title_zh: "教育与学习"
     - key: traffic
       title: "Traffic & Autonomous Driving"
+      title_zh: "交通与自动驾驶"
     - key: accessibility
       title: "Accessibility"
+      title_zh: "无障碍"
     - key: wellbeing
       title: "Well-being"
+      title_zh: "身心健康"
 - key: human-ai-collaboration
   title: "Human-AI Collaboration"
+  title_zh: "人机协作"
 - key: human-understanding
   title: "Human Understanding"
+  title_zh: "理解人"
   subtopics:
     - key: cognitive-instruments
       title: "Cognitive Instruments"
+      title_zh: "认知工具"
     - key: quantitative
       title: "Quantitative Studies"
+      title_zh: "定量研究"
     - key: qualitative
       title: "Qualitative Studies"
+      title_zh: "定性研究"
 - key: surveys
   title: "Surveys"
+  title_zh: "综述"

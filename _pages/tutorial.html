@@ -4,146 +4,17 @@ title: "HCAI Tutorial"
 permalink: /tutorial/
 author_profile: false
 ---
-
 <style>
-.hcai-tutorial{--ink:#14201b;--forest:#173c2e;--lime:#b7e34b;--mint:#eaf4ed;--blue:#2878b8;--line:#d9e3dc;--paper:#fbfcfa;max-width:1180px;margin:0 auto;color:var(--ink)}
-.tutorial-hero{position:relative;overflow:hidden;padding:clamp(2.3rem,6vw,5.5rem);border-radius:28px;background:var(--forest);color:#fff;box-shadow:0 24px 60px rgba(23,60,46,.18)}
-.tutorial-hero:after{content:"HCAI";position:absolute;right:-.04em;bottom:-.24em;font:800 clamp(8rem,22vw,18rem)/1 Arial,sans-serif;letter-spacing:-.09em;color:rgba(255,255,255,.035);pointer-events:none}
-.tutorial-kicker,.stage-no{font:700 .72rem/1.3 monospace;letter-spacing:.16em;text-transform:uppercase;color:#699441}.tutorial-hero .tutorial-kicker{color:var(--lime)}
-.tutorial-hero h1{position:relative;z-index:1;max-width:900px;margin:.8rem 0 1.3rem;font-size:clamp(3rem,7vw,6.5rem);line-height:.9;letter-spacing:-.065em}.tutorial-hero h1 em{font-family:Georgia,serif;font-weight:400;color:var(--lime)}
-.tutorial-lead{position:relative;z-index:1;max-width:760px;font-size:1.1rem;line-height:1.8;color:#dce9e1}.tutorial-meta{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:.55rem;margin-top:1.8rem}.tutorial-meta span{padding:.48rem .72rem;border:1px solid rgba(255,255,255,.28);border-radius:999px;font:700 .66rem monospace;letter-spacing:.08em}
-.path-overview{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem;margin:2rem 0 3rem}.path-card{position:relative;padding:1.25rem;border-radius:18px;background:var(--paper);border:1px solid var(--line)}.path-card b{display:block;margin-bottom:.4rem;font-size:1rem}.path-card span{color:#617068;font-size:.85rem;line-height:1.55}.path-card i{display:block;margin-bottom:.75rem;font:700 1.5rem/1 monospace;color:#7ca22e}
-.tutorial-grid{display:grid;grid-template-columns:230px minmax(0,1fr);gap:3.5rem;padding-top:3rem}.tutorial-toc{position:sticky;top:82px;align-self:start;padding:1.1rem;border-radius:18px;background:#f0f5f1;border:1px solid var(--line)}.tutorial-toc p{margin:.2rem .35rem .7rem;font:700 .68rem monospace;letter-spacing:.14em;color:#698075}.tutorial-toc a{display:block;padding:.55rem .35rem;border-bottom:1px solid #dbe5de;font-size:.84rem;color:inherit}.tutorial-toc a:last-child{border:0}.tutorial-toc a:hover{color:#587d0f;transform:translateX(3px)}
-.tutorial-main section{scroll-margin-top:90px}.tutorial-main h2{margin:.15rem 0 1rem;font-size:clamp(2rem,4vw,2.75rem);letter-spacing:-.045em}.tutorial-main h3{margin:.2rem 0 .65rem;font-size:1.05rem}.tutorial-main p,.tutorial-main li{line-height:1.72}
-.diagnostic{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin:1.3rem 0 3.5rem}.diagnostic article,.track,.week,.resource,.question{padding:1.15rem;border:1px solid var(--line);border-radius:16px;background:var(--paper)}.diagnostic article{border-top:4px solid #92bd35}.diagnostic b{display:block;margin-bottom:.4rem}
-.route{position:relative;margin:1rem 0 4rem}.stage{position:relative;margin:0 0 1rem;padding:1.6rem;border:1px solid var(--line);border-radius:22px;background:#fff}.stage:nth-child(even){background:#f5f9f6}.stage-head{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start}.stage-head h2{margin-top:.35rem}.duration{padding:.35rem .6rem;border-radius:999px;background:var(--mint);font:700 .66rem monospace;color:#4d6659;white-space:nowrap}
-.tracks{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin:1rem 0}.track{background:rgba(255,255,255,.72)}.track ul,.resource ul{margin:.5rem 0 0;padding-left:1.2rem}.deliverable{margin-top:1rem;padding:1rem 1.1rem;border-radius:12px;background:var(--forest);color:#fff}.deliverable b{font-family:monospace;color:var(--lime)}
-.resources{display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem;margin:1rem 0 3rem}.stage .resources{margin-bottom:1rem}.resource{transition:transform .18s ease,box-shadow .18s ease}.resource:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(23,60,46,.08)}.resource a{font-weight:700;text-decoration:none}.resource a:hover{text-decoration:underline;text-underline-offset:3px}.resource p{margin:.45rem 0 0;color:#5e6c64}.resource-tag{display:block;margin-bottom:.55rem;font:700 .62rem monospace;letter-spacing:.12em;color:#699441}
-.weeks{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin:1rem 0 2rem}.week{min-height:132px}.week b{display:inline-block;margin-bottom:.55rem;font-family:monospace;color:var(--blue)}
-.questions{display:grid;grid-template-columns:repeat(5,1fr);gap:.6rem;margin:1rem 0 3.5rem}.question{background:var(--forest);color:#eaf2ed;border:0}.question b{display:block;margin-bottom:.55rem;color:var(--lime)}.question span{font-size:.84rem;line-height:1.55}
-.rubric{width:100%;border-collapse:separate;border-spacing:0;margin:1rem 0 3rem;overflow:hidden;border:1px solid var(--line);border-radius:16px}.rubric th,.rubric td{padding:.9rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.rubric tr:last-child td{border-bottom:0}.rubric th{background:var(--forest);color:#fff;font:700 .72rem monospace;letter-spacing:.08em}.principle{padding:1.3rem 1.5rem;border-radius:16px;background:#eef6db;border:1px solid #cfe098;margin:1rem 0 3rem;font-size:1.05rem}.small-note{padding:1rem 1.2rem;border-left:3px solid #92bd35;background:#f5f8f2;color:#617068;font-size:.86rem}.tutorial-footer{margin-top:3rem;padding:1.4rem 0;border-top:1px solid var(--line);color:#778078;font-size:.82rem}
-@media(max-width:960px){.path-overview,.questions{grid-template-columns:repeat(2,1fr)}.weeks{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:760px){.tutorial-hero{padding:2rem 1.35rem;border-radius:20px}.tutorial-grid{display:block}.tutorial-toc{position:relative;top:auto;margin-bottom:2rem}.diagnostic,.tracks,.resources,.weeks,.questions,.path-overview{grid-template-columns:1fr}.stage{padding:1.15rem}.stage-head{display:block}.duration{display:inline-block;margin:.2rem 0 .7rem}.rubric{font-size:.8rem}.rubric th,.rubric td{padding:.55rem}.tutorial-meta span{font-size:.58rem}}
+.tutorial-hero{position:relative;overflow:hidden;padding:clamp(2rem,6vw,5rem);border:1px solid var(--atlas-line);background:radial-gradient(circle at 80% 20%,rgba(120,169,255,.18),transparent 35%),rgba(7,11,22,.94)}.tutorial-hero:after{content:"HCAI";position:absolute;right:-.04em;bottom:-.25em;font:800 clamp(8rem,23vw,18rem)/1 Arial;color:rgba(255,255,255,.025)}.tutorial-hero h1{position:relative;z-index:1;margin:.7rem 0 1.2rem;font-size:clamp(3rem,7vw,6.3rem);line-height:.92;letter-spacing:-.065em}.tutorial-hero h1 em{font-family:Georgia,serif;font-weight:400;color:var(--atlas-acid)}.tutorial-meta{display:flex;flex-wrap:wrap;gap:.5rem}.tutorial-meta span{border:1px solid var(--atlas-line);padding:.45rem .65rem;font:700 .65rem monospace;letter-spacing:.08em}.tutorial-layout{display:grid;grid-template-columns:210px minmax(0,1fr);gap:2rem;margin-top:2rem}.tutorial-toc{position:sticky;top:90px;align-self:start;border:1px solid var(--atlas-line);background:rgba(7,11,22,.92);padding:1rem}.tutorial-toc a{display:block;padding:.55rem 0;border-bottom:1px solid var(--atlas-line);color:var(--atlas-muted);font-size:.83rem}.tutorial-toc a:hover{color:var(--atlas-acid)}.stage{scroll-margin-top:90px;margin-bottom:1rem;padding:clamp(1.2rem,3vw,2rem);border:1px solid var(--atlas-line);background:rgba(11,17,32,.82)}.stage-no{color:var(--atlas-acid);font:700 .68rem monospace;letter-spacing:.15em}.stage h2{margin:.4rem 0 .9rem;color:var(--atlas-ink)}.stage p,.stage li{color:#aab6ca;line-height:1.68}.stage-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.stage-grid>div{padding:1rem;border:1px solid var(--atlas-line);background:rgba(16,25,45,.6)}.deliverable{border-left:3px solid var(--atlas-acid);padding:.8rem 1rem;background:rgba(184,255,70,.07)}@media(max-width:760px){.tutorial-layout{display:block}.tutorial-toc{position:relative;top:auto;margin-bottom:1rem}.stage-grid{grid-template-columns:1fr}}
 </style>
-
-<div class="hcai-tutorial">
-  <header class="tutorial-hero">
-    <p class="tutorial-kicker">A FIELD GUIDE TO HUMAN-CENTERED AI</p>
-    <h1>不只学会用 AI，<br>更要学会为<em>人</em><br>设计 AI。</h1>
-    <p class="tutorial-lead">一份从零开始、以研究项目为主线的 HCAI 学习指南。你将同时理解人的认知与行为、AI 的能力边界、人机协作的设计方法，以及如何用可信证据评估真实影响。</p>
-    <div class="tutorial-meta"><span>3 种起点</span><span>6 个阶段</span><span>20+ 精选资源</span><span>12 周研究项目</span></div>
-  </header>
-
-  <div class="path-overview" aria-label="学习路线概览">
-    <div class="path-card"><i>01</i><b>理解问题</b><span>从利益相关者、真实情境和人的目标出发，而不是从模型能力出发。</span></div>
-    <div class="path-card"><i>02</i><b>建立双重基础</b><span>并行学习认知与研究方法，以及机器学习、数据和模型评估。</span></div>
-    <div class="path-card"><i>03</i><b>设计协作</b><span>决定 AI 的角色、控制权、反馈、解释、纠错和安全退出机制。</span></div>
-    <div class="path-card"><i>04</i><b>形成证据</b><span>用人的结果、系统表现、责任风险和长期影响共同判断价值。</span></div>
-  </div>
-
-  <div class="tutorial-grid">
-    <nav class="tutorial-toc" aria-label="Tutorial contents">
-      <p>LEARNING PATH</p>
-      <a href="#mindset">00 · 建立 HCAI 视角</a><a href="#foundations">01 · 基础工具</a><a href="#human">02 · 理解人</a><a href="#ai">03 · 理解 AI</a><a href="#interaction">04 · 设计人机协作</a><a href="#research">05 · 进入研究</a><a href="#project">12 周项目</a><a href="#questions">五问检查表</a><a href="#library">精选资源库</a><a href="#rubric">毕业标准</a>
-    </nav>
-
-    <main class="tutorial-main">
-      <section aria-labelledby="start-title">
-        <h2 id="start-title">先判断你的起点</h2>
-        <p>不需要等到“基础全部学完”才开始 HCAI。选择你最弱的一列作为补课重点，同时尽早进入真实项目。</p>
-        <div class="diagnostic">
-          <article><b>偏设计 / 社科</b><span>优先补 Python、数据分析、机器学习概念与模型局限。</span></article>
-          <article><b>偏算法 / 工程</b><span>优先补访谈、实验设计、认知心理学与交互原型。</span></article>
-          <article><b>完全零基础</b><span>按 00 → 05 顺序推进，每周至少完成一个可展示产出。</span></article>
-        </div>
-      </section>
-
-      <div class="route">
-        <section class="stage" id="mindset">
-          <div class="stage-head"><div><span class="stage-no">STAGE 00</span><h2>建立 HCAI 视角</h2></div><span class="duration">1 WEEK</span></div>
-          <p>先学会区分三个问题：模型能不能做、系统是否好用、它是否真正改善人的处境。HCAI 的研究对象不是孤立模型，而是“人—AI—任务—情境”组成的系统。</p>
-          <div class="tracks"><div class="track"><h3>核心概念</h3><ul><li>以人的目标而非模型指标定义成功</li><li>自动化与人的控制权</li><li>信任、依赖、可解释性与失败恢复</li></ul></div><div class="track"><h3>思考练习</h3><ul><li>选择一个 AI 产品画出利益相关者地图</li><li>列出收益、误用、失败与边缘用户</li><li>把“提高准确率”改写成人的结果指标</li></ul></div></div>
-          <div class="resources"><div class="resource"><a href="https://pair.withgoogle.com/guidebook-v2/">Google People + AI Guidebook ↗</a><p>从产品流程理解人本 AI 设计模式。</p></div><div class="resource"><a href="https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/">Microsoft Human–AI Interaction Guidelines ↗</a><p>用 18 条指南检查初次使用、日常交互、失败与长期使用。</p></div></div>
-          <p class="deliverable"><b>必须产出：</b>一页 HCAI Problem Brief：用户、情境、任务、AI 角色、成功指标、主要风险。</p>
-        </section>
-
-        <section class="stage" id="foundations">
-          <div class="stage-head"><div><span class="stage-no">STAGE 01</span><h2>基础工具与生存技能</h2></div><span class="duration">2–4 WEEKS</span></div>
-          <div class="tracks"><div class="track"><h3>计算与数据</h3><ul><li>Python、Notebook、pandas 与可视化</li><li>概率统计、线性代数、假设检验</li><li>Git、命令行、可复现环境</li></ul></div><div class="track"><h3>研究表达</h3><ul><li>检索与管理文献</li><li>学术阅读：问题—方法—证据—局限</li><li>图表、写作、演示与研究日志</li></ul></div></div>
-          <div class="resources"><div class="resource"><a href="https://missing.csail.mit.edu/">MIT Missing Semester ↗</a><p>命令行、Git 与研究计算工作流。</p></div><div class="resource"><a href="https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/">MIT 18.05 Probability & Statistics ↗</a><p>概率、推断、置信区间、检验与回归；材料和习题完整。</p></div></div>
-          <p class="deliverable"><b>必须产出：</b>用公开数据完成一个可复现 Notebook，包含问题、清洗、分析、图表和结论边界。</p>
-        </section>
-
-        <section class="stage" id="human">
-          <div class="stage-head"><div><span class="stage-no">STAGE 02</span><h2>理解人：认知与研究方法</h2></div><span class="duration">3–5 WEEKS</span></div>
-          <div class="tracks"><div class="track"><h3>认知基础</h3><ul><li>知觉、注意、记忆、决策与心智模型</li><li>认知负荷、专业知识与个体差异</li><li>情绪、动机、社会互动与情境</li></ul></div><div class="track"><h3>研究方法</h3><ul><li>访谈、观察、主题分析与扎根编码</li><li>实验、自变量/因变量、效应量与功效</li><li>问卷、行为日志、眼动/生理信号</li><li>知情同意、隐私与脆弱群体保护</li></ul></div></div>
-          <div class="resources"><div class="resource"><a href="https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/">MIT Introduction to Psychology ↗</a><p>建立可用于交互设计的心理学基础。</p></div><div class="resource"><a href="https://hci.stanford.edu/courses/cs147/2025/au/">Stanford CS147 HCI ↗</a><p>以项目学习用户研究、原型和评估。</p></div></div>
-          <p class="deliverable"><b>必须产出：</b>完成 3–5 次半结构化访谈，形成编码表、需求主题和一张用户任务流程图。</p>
-        </section>
-
-        <section class="stage" id="ai">
-          <div class="stage-head"><div><span class="stage-no">STAGE 03</span><h2>理解 AI：能力、数据与边界</h2></div><span class="duration">4–6 WEEKS</span></div>
-          <div class="tracks"><div class="track"><h3>算法基础</h3><ul><li>监督/无监督学习、训练与泛化</li><li>表示学习、Transformer、LLM 与多模态模型</li><li>检索增强、智能体、微调与评估</li></ul></div><div class="track"><h3>人本视角</h3><ul><li>数据从哪里来，代表了谁</li><li>准确率之外的错误成本与分布差异</li><li>幻觉、偏差、不确定性与能力边界</li><li>何时不应该使用 AI</li></ul></div></div>
-          <div class="resources"><div class="resource"><a href="https://cs229.stanford.edu/">Stanford CS229 Machine Learning ↗</a><p>系统理解监督学习、生成模型、学习理论与无监督学习。</p></div><div class="resource"><a href="https://d2l.ai/">Dive into Deep Learning ↗</a><p>将数学、可运行代码与练习结合，从原理进入深度学习实践。</p></div></div>
-          <p class="deliverable"><b>必须产出：</b>实现一个小型 AI baseline，并制作 Model Behavior Report：数据、指标、典型成功、典型失败、风险与适用边界。</p>
-        </section>
-
-        <section class="stage" id="interaction">
-          <div class="stage-head"><div><span class="stage-no">STAGE 04</span><h2>设计人机协作系统</h2></div><span class="duration">3–5 WEEKS</span></div>
-          <p>把模型放进交互闭环：用户如何表达意图、理解输出、纠正错误、调整自动化程度，并在失败后恢复？</p>
-          <div class="tracks"><div class="track"><h3>关键设计决策</h3><ul><li>AI 是工具、队友、代理还是导师</li><li>主动性、可控性与责任如何分配</li><li>反馈、解释、不确定性如何呈现</li><li>如何支持校准信任而非追求“更多信任”</li></ul></div><div class="track"><h3>原型策略</h3><ul><li>先用 Wizard-of-Oz 验证交互价值</li><li>从低保真流程到可用 AI 原型</li><li>记录 prompt、模型版本和失败案例</li><li>设计人工接管与安全退出</li></ul></div></div>
-          <div class="resources"><div class="resource"><a href="https://ocw.mit.edu/courses/6-831-user-interface-design-and-implementation-spring-2011/">MIT 6.831 UI Design ↗</a><p>任务分析、原型、用户测试、实验分析与界面实现。</p></div><div class="resource"><a href="https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed">Encyclopedia of HCI ↗</a><p>按主题查阅 HCI 概念与方法的开放参考书。</p></div></div>
-          <p class="deliverable"><b>必须产出：</b>一个可交互原型、一次 5 人可用性测试，以及按严重程度排序的问题清单。</p>
-        </section>
-
-        <section class="stage" id="research">
-          <div class="stage-head"><div><span class="stage-no">STAGE 05</span><h2>进入 HCAI 研究</h2></div><span class="duration">ONGOING</span></div>
-          <div class="tracks"><div class="track"><h3>从主题到问题</h3><ul><li>系统阅读 20–30 篇论文并建立证据矩阵</li><li>区分技术缺口、设计缺口与知识缺口</li><li>让研究问题、方法和证据严格对应</li></ul></div><div class="track"><h3>可信与负责</h3><ul><li>预注册或提前固定分析计划</li><li>报告负面结果、失败与研究者立场</li><li>评估长期影响、滥用和部署情境</li><li>保证材料、代码和分析可复现</li></ul></div></div>
-          <div class="resources"><div class="resource"><a href="https://hci.stanford.edu/courses/cs197/">Stanford CS197 · Computer Science Research ↗</a><p>从检索、related work 和研究问题，到评估、写作、评审与展示。</p></div><div class="resource"><a href="https://airc.nist.gov/airmf-resources/airmf/">NIST AI Risk Management Framework ↗</a><p>用 Govern、Map、Measure、Manage 检查完整生命周期。</p></div></div>
-          <p class="deliverable"><b>必须产出：</b>一份 4 页研究提案：问题、相关工作、研究问题、系统/方法、评估、伦理风险、预期贡献。</p>
-        </section>
-      </div>
-
-      <section id="project">
-        <span class="stage-no">CAPSTONE</span><h2>一个 12 周的 0→1 HCAI 项目</h2>
-        <div class="weeks"><div class="week"><b>W01–02 · MAP</b><br>访谈利益相关者，定义人的目标、使用情境和风险。</div><div class="week"><b>W03–04 · FRAME</b><br>阅读相关工作，形成研究问题和非 AI baseline。</div><div class="week"><b>W05–06 · MODEL</b><br>验证 AI 能力，建立行为测试集并分析失败。</div><div class="week"><b>W07–08 · INTERACT</b><br>设计控制、反馈、解释、纠错和退出机制。</div><div class="week"><b>W09–10 · EVALUATE</b><br>开展用户研究，同时测量人的结果和系统表现。</div><div class="week"><b>W11–12 · SYNTHESIZE</b><br>分析证据，迭代原型，完成论文式报告和演示。</div></div>
-        <div class="principle"><strong>最小合格项目：</strong>不是“调用一个模型做出 Demo”，而是证明一个真实的人类需求存在、AI 在其中有合适角色、交互支持人有效掌控系统，并且证据足以说明收益与代价。</div>
-      </section>
-
-      <section id="questions">
-        <span class="stage-no">PROJECT CHECK</span><h2>每个 HCAI 项目都要回答的五个问题</h2>
-        <p>在立项、原型、实验和写作四个节点各检查一次。任何一项答不清，都意味着研究链条还有缺口。</p>
-        <div class="questions"><div class="question"><b>01 · 人</b><span>谁的目标、能力、负荷、情境和差异需要被理解？</span></div><div class="question"><b>02 · AI</b><span>数据、任务、基线、不确定性与主要失败模式是什么？</span></div><div class="question"><b>03 · 交互</b><span>人何时介入，如何理解边界、纠错、覆盖或退出？</span></div><div class="question"><b>04 · 评估</b><span>除准确率外，是否测量任务表现、体验、信任校准、公平与长期行为？</span></div><div class="question"><b>05 · 责任</b><span>谁可能受伤害或被排除？如何处理同意、隐私、来源和问责？</span></div></div>
-      </section>
-
-      <section id="library">
-        <span class="stage-no">CURATED LIBRARY</span><h2>精选资源库：按需要深入</h2>
-        <p>不要从头到尾刷完所有材料。每个阶段选一门核心课程、一份参考资料，并用当前项目驱动学习。</p>
-        <div class="resources">
-          <div class="resource"><span class="resource-tag">数学与统计</span><a href="https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/">MIT 18.06 Linear Algebra ↗</a><p>向量空间、最小二乘、特征值与矩阵分解。</p></div>
-          <div class="resource"><span class="resource-tag">计算认知</span><a href="https://ocw.mit.edu/courses/9-66j-computational-cognitive-science-fall-2004/">MIT 9.66J Computational Cognitive Science ↗</a><p>用概率推断和结构化表征解释人的学习与推理。</p></div>
-          <div class="resource"><span class="resource-tag">研究型 HCI</span><a href="https://hci.stanford.edu/courses/cs376/2018/">Stanford CS376 HCI Research ↗</a><p>经典论文讨论、研究评论与可投稿的学期项目。</p></div>
-          <div class="resource"><span class="resource-tag">论文阅读</span><a href="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf">How to Read a Paper ↗</a><p>用“三遍阅读法”判断价值、理解论证并重建工作。</p></div>
-          <div class="resource"><span class="resource-tag">科研写作</span><a href="https://mitcommlab.mit.edu/eecs/">MIT EECS Communication Lab ↗</a><p>摘要、论文、图表、海报和口头报告的实用指南。</p></div>
-          <div class="resource"><span class="resource-tag">文献与复现</span><a href="https://www.zotero.org/support/">Zotero Documentation ↗</a><p>从第一篇论文开始管理条目、标签、笔记、引用与协作库。</p></div>
-          <div class="resource"><span class="resource-tag">公平与问责</span><a href="https://facctconference.org/">ACM FAccT ↗</a><p>从近年论文进入公平、问责、透明与社会技术系统研究。</p></div>
-          <div class="resource"><span class="resource-tag">研究案例</span><a href="/publications/">Jiangtao Gong · Publications ↗</a><p>按算法、系统、人机协作与人类理解寻找完整案例。</p></div>
-        </div>
-      </section>
-
-      <section id="rubric">
-        <h2>你什么时候算“学会了”？</h2>
-        <table class="rubric"><thead><tr><th>维度</th><th>入门</th><th>达到研究起点</th></tr></thead><tbody>
-          <tr><td>理解人</td><td>能描述用户需求</td><td>能用定性/定量证据解释行为与情境</td></tr>
-          <tr><td>理解 AI</td><td>能调用或训练模型</td><td>能系统刻画能力、错误、不确定性和适用边界</td></tr>
-          <tr><td>设计系统</td><td>能完成 AI Demo</td><td>能设计控制、反馈、纠错、信任校准与失败恢复</td></tr>
-          <tr><td>评估证据</td><td>能做可用性测试</td><td>能让研究问题、方法、指标和结论严格对应</td></tr>
-          <tr><td>负责创新</td><td>知道公平与隐私概念</td><td>能识别利益相关者、风险、权力关系与长期影响</td></tr>
-        </tbody></table>
-      </section>
-
-      <p class="small-note">建议：把每个“必须产出”放进同一个公开或私有研究仓库。半年后，你得到的不只是课程笔记，而是一套能展示研究能力的 HCAI portfolio。</p>
-      <footer class="tutorial-footer">页面架构参考 Yixin Zhu 的 <a href="https://yzhu.io/s/research/getting_started/">Getting Started</a>：从基础、核心学科到研究实践逐层推进；内容按 HCAI 的人—AI—交互—评估闭环重新组织。资源最后核对：2026-07。</footer>
-    </main>
-  </div>
-</div>
+<div class="atlas-page"><header class="tutorial-hero"><p class="atlas-kicker"><span data-lang="en">A FIELD GUIDE TO HUMAN-CENTERED AI</span><span data-lang="zh">以人为中心的人工智能学习指南</span></p><div data-lang="en"><h1>Learn AI.<br>Design for <em>people.</em></h1><p class="atlas-lead">A project-driven path from foundations to independent HCAI research.</p></div><div data-lang="zh"><h1>不只学会 AI，<br>更要学会为<em>人</em>设计。</h1><p class="atlas-lead">从基础能力到独立研究，以项目产出驱动的 HCAI 学习路线。</p></div><div class="tutorial-meta"><span>6 STAGES</span><span>16–24 WEEKS</span><span>PROJECT DRIVEN</span></div></header>
+<div class="tutorial-layout"><aside class="tutorial-toc"><p class="atlas-kicker">ROUTE / 路线</p><a href="#mindset">00 · <span data-lang="en">Mindset</span><span data-lang="zh">建立视角</span></a><a href="#foundations">01 · <span data-lang="en">Foundations</span><span data-lang="zh">基础工具</span></a><a href="#human">02 · <span data-lang="en">Understand People</span><span data-lang="zh">理解人</span></a><a href="#ai">03 · <span data-lang="en">Understand AI</span><span data-lang="zh">理解 AI</span></a><a href="#interaction">04 · <span data-lang="en">Interaction</span><span data-lang="zh">人机协作</span></a><a href="#research">05 · <span data-lang="en">Research</span><span data-lang="zh">进入研究</span></a></aside>
+<main>
+<section class="stage" id="mindset"><span class="stage-no">STAGE 00 · 1 WEEK</span><div data-lang="en"><h2>Build an HCAI mindset</h2><p>Separate three questions: can the model work, is the system usable, and does it improve people's situation? Treat the person–AI–task–context relationship as the unit of design.</p><div class="stage-grid"><div><h3>Core ideas</h3><ul><li>Define success through human goals</li><li>Balance automation and control</li><li>Plan for trust, failure, and recovery</li></ul></div><div><h3>Exercise</h3><ul><li>Map stakeholders</li><li>List benefits, misuse, and exclusion</li><li>Rewrite model metrics as human outcomes</li></ul></div></div><p class="deliverable"><b>Deliverable:</b> a one-page HCAI problem brief.</p></div><div data-lang="zh"><h2>建立 HCAI 视角</h2><p>先区分三个问题：模型能不能做、系统是否好用、它是否真正改善人的处境。把“人—AI—任务—情境”的关系作为设计与研究单元。</p><div class="stage-grid"><div><h3>核心概念</h3><ul><li>以人的目标定义成功</li><li>平衡自动化与人的控制权</li><li>考虑信任、失败与恢复</li></ul></div><div><h3>思考练习</h3><ul><li>绘制利益相关者地图</li><li>列出收益、误用与边缘用户</li><li>将模型指标改写成人的结果指标</li></ul></div></div><p class="deliverable"><b>必须产出：</b>一页 HCAI 问题简报。</p></div></section>
+<section class="stage" id="foundations"><span class="stage-no">STAGE 01 · 2–4 WEEKS</span><div data-lang="en"><h2>Tools and research foundations</h2><p>Learn Python, notebooks, data analysis, statistics, Git, literature search, academic reading, visualization, and reproducible workflows.</p><p class="deliverable"><b>Deliverable:</b> a reproducible notebook with a question, cleaning process, analysis, figures, and limitations.</p></div><div data-lang="zh"><h2>基础工具与研究能力</h2><p>掌握 Python、Notebook、数据分析、统计、Git、文献检索、学术阅读、可视化与可复现工作流。</p><p class="deliverable"><b>必须产出：</b>一个包含问题、数据清洗、分析、图表、结论边界的可复现 Notebook。</p></div></section>
+<section class="stage" id="human"><span class="stage-no">STAGE 02 · 3–5 WEEKS</span><div data-lang="en"><h2>Understand people</h2><p>Study perception, attention, memory, decision-making, emotion, and mental models. Practice interviews, observation, thematic analysis, experiments, surveys, behavioral logs, and research ethics.</p><p class="deliverable"><b>Deliverable:</b> 3–5 semi-structured interviews, a coding scheme, themes, and a user task flow.</p></div><div data-lang="zh"><h2>理解人：认知与研究方法</h2><p>学习知觉、注意、记忆、决策、情绪与心智模型；练习访谈、观察、主题分析、实验、问卷、行为日志及研究伦理。</p><p class="deliverable"><b>必须产出：</b>完成 3–5 次半结构化访谈，形成编码表、需求主题和用户任务流程。</p></div></section>
+<section class="stage" id="ai"><span class="stage-no">STAGE 03 · 4–6 WEEKS</span><div data-lang="en"><h2>Understand AI capabilities and limits</h2><p>Learn supervised and unsupervised learning, representation learning, transformers, LLMs, multimodal models, retrieval, agents, and evaluation. Examine where data comes from, who it represents, uncertainty, bias, and failure cost.</p><p class="deliverable"><b>Deliverable:</b> an AI baseline plus a model behavior report.</p></div><div data-lang="zh"><h2>理解 AI：能力、数据与边界</h2><p>学习监督与无监督学习、表征学习、Transformer、LLM、多模态模型、检索、智能体与评估；分析数据来源、代表性、不确定性、偏差与失败成本。</p><p class="deliverable"><b>必须产出：</b>一个小型 AI 基线和一份模型行为报告。</p></div></section>
+<section class="stage" id="interaction"><span class="stage-no">STAGE 04 · 3–5 WEEKS</span><div data-lang="en"><h2>Design human–AI collaboration</h2><p>Put the model inside an interaction loop: help people express intent, understand output and uncertainty, correct errors, adjust automation, and recover after failure. Prototype before over-engineering.</p><p class="deliverable"><b>Deliverable:</b> an interactive prototype, a five-person usability study, and a prioritized issue list.</p></div><div data-lang="zh"><h2>设计人机协作系统</h2><p>把模型放进交互闭环：支持用户表达意图、理解输出与不确定性、纠正错误、调整自动化程度，并在失败后恢复。先验证交互价值，再增加工程复杂度。</p><p class="deliverable"><b>必须产出：</b>一个交互原型、一次 5 人可用性测试和按严重程度排序的问题清单。</p></div></section>
+<section class="stage" id="research"><span class="stage-no">STAGE 05 · ONGOING</span><div data-lang="en"><h2>Move into HCAI research</h2><p>Build an evidence matrix from 20–40 papers. Distinguish technical, design, and knowledge gaps. Align research questions, methods, evidence, ethics, and expected contributions.</p><p class="deliverable"><b>Deliverable:</b> a four-page research proposal and a 12-week capstone plan.</p></div><div data-lang="zh"><h2>进入 HCAI 研究</h2><p>系统阅读 20–40 篇论文并建立证据矩阵，区分技术缺口、设计缺口与知识缺口，让研究问题、方法、证据、伦理风险和预期贡献严格对应。</p><p class="deliverable"><b>必须产出：</b>一份四页研究提案和一个 12 周综合项目计划。</p></div></section>
+<section class="atlas-panel"><div data-lang="en"><h2>Start with these resources</h2><p><a href="https://pair.withgoogle.com/guidebook-v2/">Google People + AI Guidebook</a> · <a href="https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/">Microsoft Human–AI Interaction Guidelines</a> · <a href="https://missing.csail.mit.edu/">MIT Missing Semester</a> · <a href="https://d2l.ai/">Dive into Deep Learning</a> · <a href="https://airc.nist.gov/airmf-resources/airmf/">NIST AI RMF</a></p></div><div data-lang="zh"><h2>建议起步资源</h2><p><a href="https://pair.withgoogle.com/guidebook-v2/">Google People + AI Guidebook</a> · <a href="https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/">Microsoft 人机 AI 交互指南</a> · <a href="https://missing.csail.mit.edu/">MIT Missing Semester</a> · <a href="https://d2l.ai/">动手学深度学习</a> · <a href="https://airc.nist.gov/airmf-resources/airmf/">NIST AI 风险管理框架</a></p></div></section>
+</main></div></div>

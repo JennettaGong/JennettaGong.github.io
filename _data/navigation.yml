@@ -9,12 +9,15 @@
 
 main:
   - title: "HCAI Atlas"
+    title_zh: "研究图谱"
     url: /hcai-atlas/
 
   - title: "Publications"
+    title_zh: "研究成果"
     url: /publications/
 
   - title: "Tutorial"
+    title_zh: "学习指南"
     url: /tutorial/
 
   #- title: "Talks"
@@ -33,6 +36,7 @@ main:
   #   url: /cv/
     
   - title: "Contacts"
+    title_zh: "联系"
     url: /contacts/
     
   # - title: "Guide"
